@@ -1,0 +1,77 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> MIMOToken_utils.sol
+> MIMOToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/MIMOToken.sol
+> Compiling ./.coverage_contracts/MIMOToken_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: MIMOToken[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (1213ms)[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (358ms)[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (335ms)[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (269ms)[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (303ms)[0m
+  [32m  ✓[0m[90m test for MIMOToken[0m[31m (212ms)[0m
+  [31m  1) test for MIMOToken[0m
+    > No events were emitted
+
+
+[92m [0m[32m 6 passing[0m[90m (3s)[0m
+[31m  1 failing[0m
+
+[0m  1) Contract: MIMOToken
+       test for MIMOToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-MIMOToken.js:107:47)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------|----------|----------|----------|----------|----------------|
+File                  |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------|----------|----------|----------|----------|----------------|
+ contracts/           |    58.93 |    42.31 |    82.35 |    57.89 |                |
+  MIMOToken.sol       |    62.79 |    57.14 |      100 |    62.79 |... 120,121,122 |
+  MIMOToken_utils.sol |    46.15 |       25 |    57.14 |    42.86 |... 60,66,67,68 |
+----------------------|----------|----------|----------|----------|----------------|
+All files             |    58.93 |    42.31 |    82.35 |    57.89 |                |
+----------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 1 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

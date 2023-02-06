@@ -1,0 +1,342 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Voting.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Voting.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Voting[0m
+  [31m  1) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xFA46c02540a4d971832Ca58d136d602f92CB9d08[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xB5847A59E117FE43eEd284Fa67b9cbfae115Fe19[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for Voting[0m
+    > No events were emitted
+  [31m  4) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xe4528175Cad54185dDe7d4108DC6bFE265C941bD[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for Voting[0m
+    > No events were emitted
+  [31m  6) test for Voting[0m
+    > No events were emitted
+  [31m  7) test for Voting[0m
+    > No events were emitted
+  [31m  8) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xB5847A59E117FE43eEd284Fa67b9cbfae115Fe19[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  10) test for Voting[0m
+    > No events were emitted
+  [31m  11) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  12) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xe4528175Cad54185dDe7d4108DC6bFE265C941bD[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  13) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  14) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  15) test for Voting[0m
+    > No events were emitted
+  [31m  16) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  17) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  18) test for Voting[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  19) test for Voting[0m
+    > No events were emitted
+
+
+[92m [0m[32m 0 passing[0m[90m (5s)[0m
+[31m  19 failing[0m
+
+[0m  1) Contract: Voting
+       test for Voting:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:12:56)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:24:61)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0xe4528175Cad54185dDe7d4108DC6bFE265C941bD"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0xe4528175Cad54185dDe7d4108DC6bFE265C941bD"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:31:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Nonexisting proposal[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:49:50)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0x002c90C8D4f6f4DEf452a2E63b4286E8195920c0"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:58:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0x0616AFa854A96514f2cD8FDCD3f67B87dE4363A3"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0x0616AFa854A96514f2cD8FDCD3f67B87dE4363A3"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:67:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0xbbeC6b3F0934C8fE229d3eC063a0A380A2cc2675"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0xbbeC6b3F0934C8fE229d3eC063a0A380A2cc2675"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:78:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Invalid number of parameters for "approve". Got 2 expected 1![0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:96:51)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:106:60)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0xB5847A59E117FE43eEd284Fa67b9cbfae115Fe19"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0xB5847A59E117FE43eEd284Fa67b9cbfae115Fe19"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:111:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Nonexisting proposal[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:124:51)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:136:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:152:45)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Nonexisting proposal[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:164:49)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:169:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:192:62)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:208:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  18) Contract: Voting
+       test for Voting:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Nonexisting proposal[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:217:53)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  19) Contract: Voting
+       test for Voting:
+[0m[31m     Error: invalid address (argument="address", value={"from":"0xFA46c02540a4d971832Ca58d136d602f92CB9d08"}, code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_registryHolder", value={"from":"0xFA46c02540a4d971832Ca58d136d602f92CB9d08"}, code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-Voting.js:221:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------|----------|----------|----------|----------|----------------|
+File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------|----------|----------|----------|----------|----------------|
+ contracts/  |     10.4 |     4.92 |    20.72 |    10.57 |                |
+  Voting.sol |     10.4 |     4.92 |    20.72 |    10.57 |... 9,1493,1495 |
+-------------|----------|----------|----------|----------|----------------|
+All files    |     10.4 |     4.92 |    20.72 |    10.57 |                |
+-------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 19 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

@@ -1,0 +1,167 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> SpiritCoin.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/SpiritCoin.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: SpiritCoin[0m
+  [31m  1) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xF22Ff3bAA57CfC691b35beE11A841826333e6731[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x1B12d935012C356dFEBd003816ED00c84eab9DA1[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (874ms)[0m
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (240ms)[0m
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (253ms)[0m
+  [31m  2) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xD64a7f1B485AEACf57b2779D5E71bbE346819Cb1[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x0000000000000000000000000000000000000001[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x1B12d935012C356dFEBd003816ED00c84eab9DA1[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x20400C5cc3E6569bfE0C2Cc1B245F18A1435f7E3[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xF22Ff3bAA57CfC691b35beE11A841826333e6731[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x1B12d935012C356dFEBd003816ED00c84eab9DA1[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (298ms)[0m
+  [31m  5) test for SpiritCoin[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (276ms)[0m
+
+
+[92m [0m[32m 5 passing[0m[90m (3s)[0m
+[31m  5 failing[0m
+
+[0m  1) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  2) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  3) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  4) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::_transferTokens: transfer amount exceeds balance[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:144:56)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:181:48)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |       75 |    45.24 |    69.57 |       75 |                |
+  SpiritCoin.sol |       75 |    45.24 |    69.57 |       75 |... 296,362,363 |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |       75 |    45.24 |    69.57 |       75 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 5 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

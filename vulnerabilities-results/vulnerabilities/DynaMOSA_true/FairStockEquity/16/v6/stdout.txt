@@ -1,0 +1,200 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> FairStockEquity_utils.sol
+> FairStockEquity.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/FairStockEquity.sol
+> Compiling ./.coverage_contracts/FairStockEquity_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: FairStockEquity[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (1251ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (430ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (312ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (320ms)[0m
+  [31m  1) test for FairStockEquity[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x02dc6eAB4477AB72fA8c88FE242aFB829A5225Fb[39m (type: address)
+    )
+
+    Governor.GovernorTransferred(
+      previousGuardian: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newGuardian: <indexed> [33m0x02dc6eAB4477AB72fA8c88FE242aFB829A5225Fb[39m (type: address)
+    )
+
+    FairStockEquity.eSetDataSource(
+      previousDataSource: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newDataSource: [33m0x0000000000000000000000000000000000000001[39m (type: address)
+    )
+
+    FairStockEquity.eSetMintDegree(
+      previousMintDegree: [33m0[39m (type: uint256),
+      newMintDegree: [33m10000[39m (type: uint256),
+      previousPayAmountDegree: [33m0[39m (type: uint256),
+      newPayAmountDegree: [33m0[39m (type: uint256),
+      previousBonusAmountDegree: [33m0[39m (type: uint256),
+      newBonusAmountDegree: [33m0[39m (type: uint256),
+      previousLoseAmountTotalDegree: [33m0[39m (type: uint256),
+      newLoseAmountTotalDegree: [33m10000[39m (type: uint256),
+      previousLosePayAmountDegree: [33m0[39m (type: uint256),
+      newLosePayAmountDegree: [33m0[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentMT(
+      previousProfitPercentMT: [33m0[39m (type: uint256),
+      newProfitPercentMT: [33m5000[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentBonus(
+      previousProfitPercentBonus: [33m0[39m (type: uint256),
+      newProfitPercentBonus: [33m4000[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentPJ(
+      previousProfitPercentPJ: [33m0[39m (type: uint256),
+      newProfitPercentPJ: [33m500[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (325ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (315ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (344ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (316ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (337ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (331ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (340ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (263ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (286ms)[0m
+  [31m  2) test for FairStockEquity[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x248635AE814B5E876D0f28b404E737679Dca3Cb2[39m (type: address)
+    )
+
+    Governor.GovernorTransferred(
+      previousGuardian: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newGuardian: <indexed> [33m0x248635AE814B5E876D0f28b404E737679Dca3Cb2[39m (type: address)
+    )
+
+    FairStockEquity.eSetDataSource(
+      previousDataSource: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newDataSource: [33m0x0000000000000000000000000000000000000001[39m (type: address)
+    )
+
+    FairStockEquity.eSetMintDegree(
+      previousMintDegree: [33m0[39m (type: uint256),
+      newMintDegree: [33m10000[39m (type: uint256),
+      previousPayAmountDegree: [33m0[39m (type: uint256),
+      newPayAmountDegree: [33m0[39m (type: uint256),
+      previousBonusAmountDegree: [33m0[39m (type: uint256),
+      newBonusAmountDegree: [33m0[39m (type: uint256),
+      previousLoseAmountTotalDegree: [33m0[39m (type: uint256),
+      newLoseAmountTotalDegree: [33m10000[39m (type: uint256),
+      previousLosePayAmountDegree: [33m0[39m (type: uint256),
+      newLosePayAmountDegree: [33m0[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentMT(
+      previousProfitPercentMT: [33m0[39m (type: uint256),
+      newProfitPercentMT: [33m5000[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentBonus(
+      previousProfitPercentBonus: [33m0[39m (type: uint256),
+      newProfitPercentBonus: [33m4000[39m (type: uint256)
+    )
+
+    FairStockEquity.eSetProfitPercentPJ(
+      previousProfitPercentPJ: [33m0[39m (type: uint256),
+      newProfitPercentPJ: [33m500[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  3) test for FairStockEquity[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (309ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (258ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (250ms)[0m
+  [32m  ✓[0m[90m test for FairStockEquity[0m[31m (296ms)[0m
+
+
+[92m [0m[32m 17 passing[0m[90m (8s)[0m
+[31m  3 failing[0m
+
+[0m  1) Contract: FairStockEquity
+       test for FairStockEquity:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-FairStockEquity.js:106:53)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: FairStockEquity
+       test for FairStockEquity:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  3) Contract: FairStockEquity
+       test for FairStockEquity:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-FairStockEquity.js:335:59)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------------|----------|----------|----------|----------|----------------|
+File                        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                 |    46.89 |    37.21 |    69.49 |    48.35 |                |
+  FairStockEquity.sol       |    48.74 |    44.23 |    92.86 |    49.59 |... 344,345,346 |
+  FairStockEquity_utils.sol |     43.1 |    26.47 |    48.39 |     45.9 |... 214,215,216 |
+----------------------------|----------|----------|----------|----------|----------------|
+All files                   |    46.89 |    37.21 |    69.49 |    48.35 |                |
+----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 3 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

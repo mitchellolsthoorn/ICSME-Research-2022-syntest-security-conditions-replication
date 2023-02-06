@@ -1,0 +1,166 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> DSP.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/DSP.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: DSP[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (1241ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (500ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (328ms)[0m
+  [31m  1) test for DSP[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for DSP[0m[31m (264ms)[0m
+  [31m  2) test for DSP[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for DSP[0m[31m (284ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (313ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (228ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (253ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (349ms)[0m
+  [31m  3) test for DSP[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0xC3919F11a7470Ef82aBd6801CDbDd49B4ad6D203[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xC3919F11a7470Ef82aBd6801CDbDd49B4ad6D203[39m (type: address),
+      value: [33m100000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DSP[0m[31m (272ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (198ms)[0m
+  [31m  4) test for DSP[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x612295a613909904d90b06A69f28ab3c49385A5a[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x612295a613909904d90b06A69f28ab3c49385A5a[39m (type: address),
+      value: [33m100000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DSP[0m[31m (233ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (222ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (259ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (264ms)[0m
+  [31m  5) test for DSP[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0xB5a4d17bb3A8553Fc5f89baADA7AcfbeDA16d654[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xB5a4d17bb3A8553Fc5f89baADA7AcfbeDA16d654[39m (type: address),
+      value: [33m100000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DSP[0m[31m (380ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (273ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (365ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (338ms)[0m
+  [32m  ✓[0m[90m test for DSP[0m[31m (341ms)[0m
+
+
+[92m [0m[32m 20 passing[0m[90m (9s)[0m
+[31m  5 failing[0m
+
+[0m  1) Contract: DSP
+       test for DSP:
+[0m[31m     Error: Invalid number of parameters for "undefined". Got 4 expected 0![0m[90m
+      at Context.<anonymous> (tests/test-DSP.js:60:34)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: DSP
+       test for DSP:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-DSP.js:87:35)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: DSP
+       test for DSP:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DSP.js:196:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: DSP
+       test for DSP:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DSP.js:238:37)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: DSP
+       test for DSP:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+
+
+------------|----------|----------|----------|----------|----------------|
+File        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------|----------|----------|----------|----------|----------------|
+ contracts/ |    64.05 |    44.44 |    81.25 |    63.35 |                |
+  DSP.sol   |    64.05 |    44.44 |    81.25 |    63.35 |... 625,629,648 |
+------------|----------|----------|----------|----------|----------------|
+All files   |    64.05 |    44.44 |    81.25 |    63.35 |                |
+------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 5 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

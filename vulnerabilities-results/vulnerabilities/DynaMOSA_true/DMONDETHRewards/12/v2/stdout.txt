@@ -1,0 +1,215 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> DMONDETHRewards.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/DMONDETHRewards.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: DMONDETHRewards[0m
+  [31m  1) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x6EC7c29a39F545d6C74f8B3e1d4F2CB39F372729[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (937ms)[0m
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (186ms)[0m
+  [31m  2) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x70ccED9a08429086b49B38108cF93C9e4e40555A[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (307ms)[0m
+  [31m  3) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3F9d23Cb552c6B231fFb10AA2f7B19d3df928857[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (891ms)[0m
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (694ms)[0m
+  [31m  4) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3F9d23Cb552c6B231fFb10AA2f7B19d3df928857[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for DMONDETHRewards[0m
+    > No events were emitted
+  [31m  6) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xf22395DaaB168Fa5ae82da18a570d71A8327e793[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DMONDETHRewards[0m[31m (227ms)[0m
+  [31m  7) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5a95d8B19Ba6C744592fb91f6C2f4685e2d10814[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  8) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5a95d8B19Ba6C744592fb91f6C2f4685e2d10814[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for DMONDETHRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3F9d23Cb552c6B231fFb10AA2f7B19d3df928857[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 6 passing[0m[90m (7s)[0m
+[31m  9 failing[0m
+
+[0m  1) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  2) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DMONDETHRewards.js:60:50)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  4) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  5) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-DMONDETHRewards.js:125:59)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected '0xf22395DaaB168Fa5ae82da18a570d71A8327e793' to equal 9.428879589362183e+44[0m[90m
+      at Context.<anonymous> (tests/test-DMONDETHRewards.js:144:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  8) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  9) Contract: DMONDETHRewards
+       test for DMONDETHRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+
+
+----------------------|----------|----------|----------|----------|----------------|
+File                  |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------|----------|----------|----------|----------|----------------|
+ contracts/           |    60.58 |    43.48 |    72.34 |    62.39 |                |
+  DMONDETHRewards.sol |    60.58 |    43.48 |    72.34 |    62.39 |... 369,374,375 |
+----------------------|----------|----------|----------|----------|----------------|
+All files             |    60.58 |    43.48 |    72.34 |    62.39 |                |
+----------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

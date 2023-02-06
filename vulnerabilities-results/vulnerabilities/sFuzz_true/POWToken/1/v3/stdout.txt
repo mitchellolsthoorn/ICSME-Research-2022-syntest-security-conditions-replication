@@ -1,0 +1,93 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> POWToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/POWToken.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: POWToken[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (1037ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (243ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (214ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (217ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (209ms)[0m
+  [31m  1) test for POWToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for POWToken[0m[31m (238ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (205ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (216ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (184ms)[0m
+  [31m  2) test for POWToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for POWToken[0m[31m (280ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (241ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (208ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (220ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (231ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (209ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (186ms)[0m
+  [32m  ✓[0m[90m test for POWToken[0m[31m (200ms)[0m
+
+
+[92m [0m[32m 17 passing[0m[90m (6s)[0m
+[31m  2 failing[0m
+
+[0m  1) Contract: POWToken
+       test for POWToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-POWToken.js:90:45)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: POWToken
+       test for POWToken:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-POWToken.js:179:43)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+---------------|----------|----------|----------|----------|----------------|
+File           |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+---------------|----------|----------|----------|----------|----------------|
+ contracts/    |     24.4 |    19.64 |    46.03 |    24.42 |                |
+  POWToken.sol |     24.4 |    19.64 |    46.03 |    24.42 |... 852,857,862 |
+---------------|----------|----------|----------|----------|----------------|
+All files      |     24.4 |    19.64 |    46.03 |    24.42 |                |
+---------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 2 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

@@ -1,0 +1,142 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> NAL.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/NAL.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: NAL[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (984ms)[0m
+  [31m  1) test for NAL[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for NAL[0m[31m (240ms)[0m
+  [31m  2) test for NAL[0m
+    > No events were emitted
+  [31m  3) test for NAL[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    AdminRole.AdminAdded(
+      account: <indexed> [33m0x92f439c8F72Ca57142659F930c5303D44BDc0121[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x92f439c8F72Ca57142659F930c5303D44BDc0121[39m (type: address),
+      value: [33m2000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for NAL[0m[31m (206ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (196ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (184ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (170ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (203ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (172ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (170ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (179ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (208ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (209ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (216ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (194ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (193ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (162ms)[0m
+  [31m  4) test for NAL[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    AdminRole.AdminAdded(
+      account: <indexed> [33m0x16696ac41bb3d57b0288dE00a32D275E218bcBdc[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x16696ac41bb3d57b0288dE00a32D275E218bcBdc[39m (type: address),
+      value: [33m2000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for NAL[0m[31m (188ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (174ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (187ms)[0m
+  [32m  ✓[0m[90m test for NAL[0m[31m (335ms)[0m
+
+
+[92m [0m[32m 20 passing[0m[90m (6s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: NAL
+       test for NAL:
+[0m[31m     Error: Invalid number of parameters for "undefined". Got 4 expected 0![0m[90m
+      at Context.<anonymous> (tests/test-NAL.js:26:35)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: NAL
+       test for NAL:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-NAL.js:52:34)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: NAL
+       test for NAL:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-NAL.js:72:37)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: NAL
+       test for NAL:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-NAL.js:271:36)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+------------|----------|----------|----------|----------|----------------|
+File        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------|----------|----------|----------|----------|----------------|
+ contracts/ |    56.38 |    39.71 |    75.38 |    56.41 |                |
+  NAL.sol   |    56.38 |    39.71 |    75.38 |    56.41 |... 610,611,612 |
+------------|----------|----------|----------|----------|----------------|
+All files   |    56.38 |    39.71 |    75.38 |    56.41 |                |
+------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

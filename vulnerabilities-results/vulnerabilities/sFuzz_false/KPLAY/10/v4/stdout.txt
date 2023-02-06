@@ -1,0 +1,266 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> KPLAY.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/KPLAY.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: KPLAY[0m
+  [31m  1) test for KPLAY[0m
+    > No events were emitted
+  [31m  2) test for KPLAY[0m
+    > No events were emitted
+  [31m  3) test for KPLAY[0m
+    > No events were emitted
+  [31m  4) test for KPLAY[0m
+    > No events were emitted
+  [31m  5) test for KPLAY[0m
+    > No events were emitted
+  [31m  6) test for KPLAY[0m
+    > No events were emitted
+  [31m  7) test for KPLAY[0m
+    > No events were emitted
+  [31m  8) test for KPLAY[0m
+    > No events were emitted
+  [31m  9) test for KPLAY[0m
+    > No events were emitted
+  [31m  10) test for KPLAY[0m
+    > No events were emitted
+  [31m  11) test for KPLAY[0m
+    > No events were emitted
+  [31m  12) test for KPLAY[0m
+    > No events were emitted
+  [31m  13) test for KPLAY[0m
+    > No events were emitted
+  [31m  14) test for KPLAY[0m
+    > No events were emitted
+  [31m  15) test for KPLAY[0m
+    > No events were emitted
+  [31m  16) test for KPLAY[0m
+    > No events were emitted
+  [31m  17) test for KPLAY[0m
+    > No events were emitted
+  [31m  18) test for KPLAY[0m
+    > No events were emitted
+  [31m  19) test for KPLAY[0m
+    > No events were emitted
+  [31m  20) test for KPLAY[0m
+    > No events were emitted
+  [31m  21) test for KPLAY[0m
+    > No events were emitted
+  [31m  22) test for KPLAY[0m
+    > No events were emitted
+  [31m  23) test for KPLAY[0m
+    > No events were emitted
+  [31m  24) test for KPLAY[0m
+    > No events were emitted
+
+
+[92m [0m[32m 0 passing[0m[90m (5s)[0m
+[31m  24 failing[0m
+
+[0m  1) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:8:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:27:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:46:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:61:38)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:84:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:110:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:130:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:148:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:163:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:175:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:196:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:208:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:228:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:240:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:257:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:269:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:291:38)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  18) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:305:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  19) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:316:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  20) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:330:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  21) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:346:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  22) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:368:38)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  23) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: sender account not recognized -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:378:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  24) Contract: KPLAY
+       test for KPLAY:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert ERC20: mint to the zero address -- Reason given: ERC20: mint to the zero address.[0m[90m
+      at Context.<anonymous> (tests/test-KPLAY.js:388:39)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+------------|----------|----------|----------|----------|----------------|
+File        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------|----------|----------|----------|----------|----------------|
+ contracts/ |     1.61 |     1.72 |     4.35 |     1.53 |                |
+  KPLAY.sol |     1.61 |     1.72 |     4.35 |     1.53 |... 688,692,696 |
+------------|----------|----------|----------|----------|----------------|
+All files   |     1.61 |     1.72 |     4.35 |     1.53 |                |
+------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 24 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

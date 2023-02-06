@@ -1,0 +1,112 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> GardenContractV2_utils.sol
+> GardenContractV2.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/GardenContractV2.sol
+> Compiling ./.coverage_contracts/GardenContractV2_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: GardenContractV2[0m
+  [31m  1) test for GardenContractV2[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (369ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (282ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (303ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (255ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (263ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (295ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (256ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (274ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (310ms)[0m
+  [31m  2) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x890fA3E81a454B08A5739Aa8153126d49697c83E[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (279ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (286ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (246ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (237ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (254ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (255ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (255ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (240ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (258ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (242ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (230ms)[0m
+  [32m  ✓[0m[90m test for GardenContractV2[0m[31m (223ms)[0m
+
+
+[92m [0m[32m 21 passing[0m[90m (7s)[0m
+[31m  2 failing[0m
+
+[0m  1) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:11:61)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:220:53)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------------------|----------|----------|----------|----------|----------------|
+File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                  |    19.54 |    10.66 |    32.94 |    19.68 |                |
+  GardenContractV2.sol       |    27.92 |    13.89 |       75 |    27.92 |... 501,503,506 |
+  GardenContractV2_utils.sol |     4.55 |        6 |     7.55 |     5.31 |... 776,777,778 |
+-----------------------------|----------|----------|----------|----------|----------------|
+All files                    |    19.54 |    10.66 |    32.94 |    19.68 |                |
+-----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 2 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

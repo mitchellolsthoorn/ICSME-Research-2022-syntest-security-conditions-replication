@@ -1,0 +1,218 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> BancorV2_ZapIn_General_V1_1.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/BancorV2_ZapIn_General_V1_1.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/BancorV2_ZapIn_General_V1_1.sol:190:9: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+        string memory errorMessage
+        ^------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: BancorV2_ZapIn_General_V1_1[0m
+  [32m  ✓[0m[90m test for BancorV2_ZapIn_General_V1_1[0m[31m (1082ms)[0m
+  [31m  1) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x7B6bd9f3fbe1018F05883df0D4AE93BBe1726b93[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xc56429944f7F638Fe0829FD813eB9a0bE899674c[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for BancorV2_ZapIn_General_V1_1[0m
+    > No events were emitted
+  [31m  4) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x7B6bd9f3fbe1018F05883df0D4AE93BBe1726b93[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xe77c826999151A4c50D95b3344ac255605bae272[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for BancorV2_ZapIn_General_V1_1[0m[31m (165ms)[0m
+  [31m  6) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x7B6bd9f3fbe1018F05883df0D4AE93BBe1726b93[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  7) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xB26e262a3e3751bA252C78c55a87eEd5eB29014d[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  8) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x115FdE607898CAFbF60ecc9e5000FE5D436A15b5[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for BancorV2_ZapIn_General_V1_1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x115FdE607898CAFbF60ecc9e5000FE5D436A15b5[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 2 passing[0m[90m (4s)[0m
+[31m  9 failing[0m
+
+[0m  1) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:26:61)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected '0xc56429944f7F638Fe0829FD813eB9a0bE899674c' to equal 4.851345053668416e+47[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:39:10)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:45:83)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected '0x7B6bd9f3fbe1018F05883df0D4AE93BBe1726b93' to equal 5.570048442006594e+47[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:59:10)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected '0xe77c826999151A4c50D95b3344ac255605bae272' to equal 4.053281915962522e+46[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:100:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  7) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected '0xB26e262a3e3751bA252C78c55a87eEd5eB29014d' to equal 8.395815616739589e+47[0m[90m
+      at Context.<anonymous> (tests/test-BancorV2_ZapIn_General_V1_1.js:141:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  9) Contract: BancorV2_ZapIn_General_V1_1
+       test for BancorV2_ZapIn_General_V1_1:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+
+
+----------------------------------|----------|----------|----------|----------|----------------|
+File                              |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------------------|----------|----------|----------|----------|----------------|
+ contracts/                       |    20.34 |      6.9 |    41.03 |    20.49 |                |
+  BancorV2_ZapIn_General_V1_1.sol |    20.34 |      6.9 |    41.03 |    20.49 |... 915,920,934 |
+----------------------------------|----------|----------|----------|----------|----------------|
+All files                         |    20.34 |      6.9 |    41.03 |    20.49 |                |
+----------------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

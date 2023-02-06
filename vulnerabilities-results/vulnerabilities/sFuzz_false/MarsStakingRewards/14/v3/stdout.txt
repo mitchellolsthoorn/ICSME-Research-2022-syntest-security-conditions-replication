@@ -1,0 +1,169 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> MarsStakingRewards.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/MarsStakingRewards.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: MarsStakingRewards[0m
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (1260ms)[0m
+  [31m  1) test for MarsStakingRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xAfb00fDA271657B116Ae5A2b97761107467B9e43[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (201ms)[0m
+  [31m  2) test for MarsStakingRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5C0CC6796F96777b1f60683bE3163c338F73de1E[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (174ms)[0m
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (228ms)[0m
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (248ms)[0m
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (283ms)[0m
+  [31m  3) test for MarsStakingRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3Dc830C6Cf1efBa2140F9B080879851E0cc222Dd[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (197ms)[0m
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (160ms)[0m
+  [31m  4) test for MarsStakingRewards[0m
+    > No events were emitted
+  [31m  5) test for MarsStakingRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xe67b8202C96b6Bc6817937e1B965038A39995423[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (1128ms)[0m
+  [31m  6) test for MarsStakingRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3Dc830C6Cf1efBa2140F9B080879851E0cc222Dd[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for MarsStakingRewards[0m[31m (141ms)[0m
+
+
+[92m [0m[32m 10 passing[0m[90m (6s)[0m
+[31m  6 failing[0m
+
+[0m  1) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     AssertionError: expected '0xAfb00fDA271657B116Ae5A2b97761107467B9e43' to equal 1.1872200939357175e+48[0m[90m
+      at Context.<anonymous> (tests/test-MarsStakingRewards.js:31:10)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-MarsStakingRewards.js:69:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-MarsStakingRewards.js:163:55)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-MarsStakingRewards.js:199:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  6) Contract: MarsStakingRewards
+       test for MarsStakingRewards:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert _rewardsDistribution is the zero address[0m[90m
+      at Context.<anonymous> (tests/test-MarsStakingRewards.js:243:81)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------|----------|----------|----------|----------|----------------|
+File                     |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------|----------|----------|----------|----------|----------------|
+ contracts/              |    46.96 |    31.48 |    67.35 |    47.93 |                |
+  MarsStakingRewards.sol |    46.96 |    31.48 |    67.35 |    47.93 |... 704,713,714 |
+-------------------------|----------|----------|----------|----------|----------------|
+All files                |    46.96 |    31.48 |    67.35 |    47.93 |                |
+-------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 6 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

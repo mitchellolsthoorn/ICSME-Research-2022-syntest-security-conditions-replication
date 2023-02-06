@@ -1,0 +1,307 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Ledgis.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Ledgis.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Ledgis[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (1039ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (287ms)[0m
+  [31m  1) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x4b32D7c8696a064d62B4f8ADf0053688fDbe7D2C[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (254ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (190ms)[0m
+  [31m  2) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (213ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (213ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (264ms)[0m
+  [31m  3) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  4) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  5) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xcB1cba33B15AbF501cC5522b3fE9AcB99a8e10Ff[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  6) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (200ms)[0m
+  [31m  7) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  8) test for Ledgis[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (191ms)[0m
+  [31m  9) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  10) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x4555562ec35B154E421c867F8adBDf9CB9DF45f7[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  11) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xcB1cba33B15AbF501cC5522b3fE9AcB99a8e10Ff[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  12) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (163ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (159ms)[0m
+  [31m  13) test for Ledgis[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x166BE442CCED086dB2192FE1Ee1d18EaD9E17fA3[39m (type: address),
+      value: [33m10000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (213ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (275ms)[0m
+  [32m  ✓[0m[90m test for Ledgis[0m[31m (304ms)[0m
+
+
+[92m [0m[32m 14 passing[0m[90m (7s)[0m
+[31m  13 failing[0m
+
+[0m  1) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:53:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  3) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  4) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  5) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  6) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  7) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  8) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:274:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:322:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:336:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:350:40)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected <BN: 6131ee76> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-Ledgis.js:363:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: Ledgis
+       test for Ledgis:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+
+
+-------------|----------|----------|----------|----------|----------------|
+File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------|----------|----------|----------|----------|----------------|
+ contracts/  |    69.05 |     37.5 |    86.67 |    67.67 |                |
+  Ledgis.sol |    69.05 |     37.5 |    86.67 |    67.67 |... 521,522,524 |
+-------------|----------|----------|----------|----------|----------------|
+All files    |    69.05 |     37.5 |    86.67 |    67.67 |                |
+-------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 13 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

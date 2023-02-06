@@ -1,0 +1,219 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> TokenDispatch_utils.sol
+> TokenDispatch.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/TokenDispatch.sol
+> Compiling ./.coverage_contracts/TokenDispatch_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: TokenDispatch[0m
+  [31m  1) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb67A01240A280876768a096Ee23748333c9018de[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x780c462068645d2Cb7FE27164972E1D87264d32b[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xbC8A8d53E4E77885506F9EeeEFD869DedD3bDd09[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x780c462068645d2Cb7FE27164972E1D87264d32b[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xD984a123c34Ce25969679724e7E036165147B77a[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x780c462068645d2Cb7FE27164972E1D87264d32b[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  7) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x75059dE8da05E595D04c7D47BA5AF654b001A4c5[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  8) test for TokenDispatch[0m
+    > No events were emitted
+  [31m  9) test for TokenDispatch[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb67A01240A280876768a096Ee23748333c9018de[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 0 passing[0m[90m (3s)[0m
+[31m  9 failing[0m
+
+[0m  1) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:17:70)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: CALLER_IS_NOT_THE_OWNER[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:29:61)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:42:62)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert CALLER_IS_NOT_A_MANAGER[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:56:64)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: TEAM_NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:67:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:81:45)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:95:63)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:103:55)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: TokenDispatch
+       test for TokenDispatch:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert YouSwap: NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-TokenDispatch.js:121:70)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+--------------------------|----------|----------|----------|----------|----------------|
+File                      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+--------------------------|----------|----------|----------|----------|----------------|
+ contracts/               |    27.89 |    16.67 |    51.61 |    29.33 |                |
+  TokenDispatch.sol       |       21 |    10.71 |       70 |    22.68 |... 224,225,227 |
+  TokenDispatch_utils.sol |    42.55 |    28.57 |    42.86 |    41.51 |... 292,293,295 |
+--------------------------|----------|----------|----------|----------|----------------|
+All files                 |    27.89 |    16.67 |    51.61 |    29.33 |                |
+--------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

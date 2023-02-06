@@ -1,0 +1,114 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> CryptoSecureBankToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/CryptoSecureBankToken.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: CryptoSecureBankToken[0m
+  [31m  1) test for CryptoSecureBankToken[0m
+    > No events were emitted
+  [31m  2) test for CryptoSecureBankToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (225ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (287ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (246ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (165ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (211ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (237ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (177ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (249ms)[0m
+  [31m  3) test for CryptoSecureBankToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (195ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (176ms)[0m
+  [31m  4) test for CryptoSecureBankToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (192ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (219ms)[0m
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (208ms)[0m
+  [31m  5) test for CryptoSecureBankToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CryptoSecureBankToken[0m[31m (186ms)[0m
+
+
+[92m [0m[32m 14 passing[0m[90m (6s)[0m
+[31m  5 failing[0m
+
+[0m  1) Contract: CryptoSecureBankToken
+       test for CryptoSecureBankToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-CryptoSecureBankToken.js:8:71)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: CryptoSecureBankToken
+       test for CryptoSecureBankToken:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-CryptoSecureBankToken.js:33:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: CryptoSecureBankToken
+       test for CryptoSecureBankToken:
+[0m[31m     AssertionError: expected '0x168ed3FfCFcB9379235A5a052851fbbBc4EeF9AA' to equal 2.1230064955789602e+47[0m[90m
+      at Context.<anonymous> (tests/test-CryptoSecureBankToken.js:170:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: CryptoSecureBankToken
+       test for CryptoSecureBankToken:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  5) Contract: CryptoSecureBankToken
+       test for CryptoSecureBankToken:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-CryptoSecureBankToken.js:278:55)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------------|----------|----------|----------|----------|----------------|
+File                        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                 |    64.42 |    42.31 |    87.88 |    64.81 |                |
+  CryptoSecureBankToken.sol |    64.42 |    42.31 |    87.88 |    64.81 |... 304,305,307 |
+----------------------------|----------|----------|----------|----------|----------------|
+All files                   |    64.42 |    42.31 |    87.88 |    64.81 |                |
+----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 5 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

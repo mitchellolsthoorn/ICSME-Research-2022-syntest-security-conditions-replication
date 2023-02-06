@@ -1,0 +1,132 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> CourtFarming_HTStake_utils.sol
+> CourtFarming_HTStake.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/CourtFarming_HTStake.sol
+> Compiling ./.coverage_contracts/CourtFarming_HTStake_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: CourtFarming_HTStake[0m
+  [31m  1) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [31m  2) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [31m  3) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (1037ms)[0m
+  [31m  4) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [31m  5) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [31m  6) test for CourtFarming_HTStake[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (618ms)[0m
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (252ms)[0m
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (483ms)[0m
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (347ms)[0m
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (450ms)[0m
+  [32m  ✓[0m[90m test for CourtFarming_HTStake[0m[31m (207ms)[0m
+  [31m  7) test for CourtFarming_HTStake[0m
+    > No events were emitted
+
+
+[92m [0m[32m 7 passing[0m[90m (7s)[0m
+[31m  7 failing[0m
+
+[0m  1) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     AssertionError: expected <BN: 1> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:18:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     AssertionError: expected <BN: 2> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:29:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     AssertionError: expected <BN: 6131eadd> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:44:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     AssertionError: expected <BN: 5> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:81:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:99:71)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:103:69)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: CourtFarming_HTStake
+       test for CourtFarming_HTStake:
+[0m[31m     AssertionError: expected <BN: 6131eae2> to equal {}[0m[90m
+      at Context.<anonymous> (tests/test-CourtFarming_HTStake.js:223:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+---------------------------------|----------|----------|----------|----------|----------------|
+File                             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+---------------------------------|----------|----------|----------|----------|----------------|
+ contracts/                      |    62.84 |    38.71 |    78.38 |    63.09 |                |
+  CourtFarming_HTStake.sol       |    66.06 |    44.44 |      100 |    66.06 |... 326,331,336 |
+  CourtFarming_HTStake_utils.sol |    53.85 |    30.77 |    52.94 |       55 |... 374,376,378 |
+---------------------------------|----------|----------|----------|----------|----------------|
+All files                        |    62.84 |    38.71 |    78.38 |    63.09 |                |
+---------------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 7 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

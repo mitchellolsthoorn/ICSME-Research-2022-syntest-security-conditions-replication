@@ -1,0 +1,156 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> DmmControllerV2.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/DmmControllerV2.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: DmmControllerV2[0m
+  [31m  1) test for DmmControllerV2[0m
+    > No events were emitted
+  [31m  2) test for DmmControllerV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x3f5a546D93526F73E444F12609Cf3e4e9efAbC44[39m (type: address)
+    )
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3f5a546D93526F73E444F12609Cf3e4e9efAbC44[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for DmmControllerV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for DmmControllerV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for DmmControllerV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x113331a791Cba7F967e0b0C25815C17E20fFc7F0[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 0 passing[0m[90m (4s)[0m
+[31m  5 failing[0m
+
+[0m  1) Contract: DmmControllerV2
+       test for DmmControllerV2:
+[0m[31m     Error: Invalid number of parameters for "undefined". Got 1 expected 12![0m[90m
+      at Context.<anonymous> (tests/test-DmmControllerV2.js:8:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: DmmControllerV2
+       test for DmmControllerV2:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DmmControllerV2.js:34:58)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: DmmControllerV2
+       test for DmmControllerV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-DmmControllerV2.js:57:74)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: DmmControllerV2
+       test for DmmControllerV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert TOKEN_DOES_NOT_EXIST[0m[90m
+      at Context.<anonymous> (tests/test-DmmControllerV2.js:79:60)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: DmmControllerV2
+       test for DmmControllerV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-DmmControllerV2.js:107:50)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------|----------|----------|----------|----------|----------------|
+File                  |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------|----------|----------|----------|----------|----------------|
+ contracts/           |    13.62 |     7.14 |    14.41 |    13.21 |                |
+  DmmControllerV2.sol |    13.62 |     7.14 |    14.41 |    13.21 |... 5,2866,2868 |
+----------------------|----------|----------|----------|----------|----------------|
+All files             |    13.62 |     7.14 |    14.41 |    13.21 |                |
+----------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 5 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

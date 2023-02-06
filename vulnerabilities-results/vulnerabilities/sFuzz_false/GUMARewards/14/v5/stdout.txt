@@ -1,0 +1,127 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> GUMARewards.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/GUMARewards.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: GUMARewards[0m
+  [31m  1) test for GUMARewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9c995541AE4483C30db8426AEBD663a25eED7222[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (875ms)[0m
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (245ms)[0m
+  [31m  2) test for GUMARewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (177ms)[0m
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (118ms)[0m
+  [31m  3) test for GUMARewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xE235252291F27291f903d3d347DbD6d2059dEa3c[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (263ms)[0m
+  [31m  4) test for GUMARewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9c995541AE4483C30db8426AEBD663a25eED7222[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for GUMARewards[0m[31m (168ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (3s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: GUMARewards
+       test for GUMARewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-GUMARewards.js:14:48)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: GUMARewards
+       test for GUMARewards:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-GUMARewards.js:45:51)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: GUMARewards
+       test for GUMARewards:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  4) Contract: GUMARewards
+       test for GUMARewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-GUMARewards.js:124:45)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+------------------|----------|----------|----------|----------|----------------|
+File              |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------------|----------|----------|----------|----------|----------------|
+ contracts/       |    39.56 |    23.81 |    52.27 |    38.54 |                |
+  GUMARewards.sol |    39.56 |    23.81 |    52.27 |    38.54 |... 675,676,677 |
+------------------|----------|----------|----------|----------|----------------|
+All files         |    39.56 |    23.81 |    52.27 |    38.54 |                |
+------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

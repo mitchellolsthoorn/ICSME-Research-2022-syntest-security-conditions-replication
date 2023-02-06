@@ -1,0 +1,95 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> WheatFarm.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/WheatFarm.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: WheatFarm[0m
+  [31m  1) test for WheatFarm[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (331ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (234ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (156ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (139ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (162ms)[0m
+  [31m  2) test for WheatFarm[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    WheatFarm.Transfer(
+      _from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      _to: <indexed> [33m0xdfF452c52e08ad5524156b2A2b0d9843E70b592D[39m (type: address),
+      _value: [33m183000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (201ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (183ms)[0m
+  [32m  ✓[0m[90m test for WheatFarm[0m[31m (110ms)[0m
+
+
+[92m [0m[32m 8 passing[0m[90m (3s)[0m
+[31m  2 failing[0m
+
+[0m  1) Contract: WheatFarm
+       test for WheatFarm:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-WheatFarm.js:11:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: WheatFarm
+       test for WheatFarm:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-WheatFarm.js:132:51)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------|----------|----------|----------|----------|----------------|
+File            |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------|----------|----------|----------|----------|----------------|
+ contracts/     |    29.73 |    25.76 |    21.62 |    28.97 |                |
+  WheatFarm.sol |    29.73 |    25.76 |    21.62 |    28.97 |... 333,334,336 |
+----------------|----------|----------|----------|----------|----------------|
+All files       |    29.73 |    25.76 |    21.62 |    28.97 |                |
+----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 2 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

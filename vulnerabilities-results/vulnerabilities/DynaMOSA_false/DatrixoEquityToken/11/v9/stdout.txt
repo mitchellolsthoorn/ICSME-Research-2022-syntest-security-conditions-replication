@@ -1,0 +1,99 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> DatrixoEquityToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/DatrixoEquityToken.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: DatrixoEquityToken[0m
+  [31m  1) test for DatrixoEquityToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (865ms)[0m
+  [31m  2) test for DatrixoEquityToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (157ms)[0m
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (160ms)[0m
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (122ms)[0m
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (190ms)[0m
+  [32m  ✓[0m[90m test for DatrixoEquityToken[0m[31m (123ms)[0m
+  [31m  3) test for DatrixoEquityToken[0m
+    > No events were emitted
+  [31m  4) test for DatrixoEquityToken[0m
+    > No events were emitted
+
+
+[92m [0m[32m 6 passing[0m[90m (3s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: DatrixoEquityToken
+       test for DatrixoEquityToken:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DatrixoEquityToken.js:14:57)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: DatrixoEquityToken
+       test for DatrixoEquityToken:
+[0m[31m     AssertionError: expected [] to equal undefined[0m[90m
+      at Context.<anonymous> (tests/test-DatrixoEquityToken.js:41:10)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: DatrixoEquityToken
+       test for DatrixoEquityToken:
+[0m[31m     AssertionError: expected [] to equal undefined[0m[90m
+      at Context.<anonymous> (tests/test-DatrixoEquityToken.js:161:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: DatrixoEquityToken
+       test for DatrixoEquityToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-DatrixoEquityToken.js:169:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------|----------|----------|----------|----------|----------------|
+File                     |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------|----------|----------|----------|----------|----------------|
+ contracts/              |    74.19 |    47.73 |    93.75 |    71.21 |                |
+  DatrixoEquityToken.sol |    74.19 |    47.73 |    93.75 |    71.21 |... 100,112,148 |
+-------------------------|----------|----------|----------|----------|----------------|
+All files                |    74.19 |    47.73 |    93.75 |    71.21 |                |
+-------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

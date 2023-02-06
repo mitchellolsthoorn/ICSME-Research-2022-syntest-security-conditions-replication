@@ -1,0 +1,243 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> XenoFelix.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/XenoFelix.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: XenoFelix[0m
+  [31m  1) test for XenoFelix[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0xDc9524Cfe604FF18AE0627aAf0b395E631186c7E[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xDc9524Cfe604FF18AE0627aAf0b395E631186c7E[39m (type: address),
+      value: [33m10000000000000000000000000000000000000000000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  2) test for XenoFelix[0m
+    > No events were emitted
+  [31m  3) test for XenoFelix[0m
+    > No events were emitted
+  [31m  4) test for XenoFelix[0m
+    > No events were emitted
+  [31m  5) test for XenoFelix[0m
+    > No events were emitted
+  [31m  6) test for XenoFelix[0m
+    > No events were emitted
+  [31m  7) test for XenoFelix[0m
+    > No events were emitted
+  [31m  8) test for XenoFelix[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (257ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (216ms)[0m
+  [31m  9) test for XenoFelix[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (212ms)[0m
+  [31m  10) test for XenoFelix[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x2d1C3676784d746dC227be95852449F6CA1E4786[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x2d1C3676784d746dC227be95852449F6CA1E4786[39m (type: address),
+      value: [33m1482000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  11) test for XenoFelix[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0x2d1C3676784d746dC227be95852449F6CA1E4786[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x2d1C3676784d746dC227be95852449F6CA1E4786[39m (type: address),
+      value: [33m1482000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  12) test for XenoFelix[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    PauserRole.PauserAdded(
+      account: <indexed> [33m0xDc9524Cfe604FF18AE0627aAf0b395E631186c7E[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xDc9524Cfe604FF18AE0627aAf0b395E631186c7E[39m (type: address),
+      value: [33m25798620638840046379445371703306245153334742888977610771037251838217528803328[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (176ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (230ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (198ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (215ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (230ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (215ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (208ms)[0m
+  [31m  13) test for XenoFelix[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (178ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (181ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (179ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (202ms)[0m
+  [32m  ✓[0m[90m test for XenoFelix[0m[31m (168ms)[0m
+
+
+[92m [0m[32m 15 passing[0m[90m (6s)[0m
+[31m  13 failing[0m
+
+[0m  1) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:21:57)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:29:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0x77dDcf372580d3D0fd2035915140416d66dAFe8f"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:43:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0x18f58E19Dc9c8F8f6d12b9D1a38f827971a700aB"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:57:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: Invalid number of parameters for "undefined". Got 1 expected 4![0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:68:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0xBd97a234D932bDE928370c11c9CB678738230973"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:89:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0xDc9524Cfe604FF18AE0627aAf0b395E631186c7E"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:106:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0x2d1C3676784d746dC227be95852449F6CA1E4786"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:115:47)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0x0000000000000000000000000000000000000001"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:163:47)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:207:43)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:232:46)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:245:37)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: XenoFelix
+       test for XenoFelix:
+[0m[31m     Error: invalid BigNumber value (argument="value", value={"from":"0x54C97E3280fEA435Ee45f40D323B482147b6eb11"}, code=INVALID_ARGUMENT, version=bignumber/5.0.8)[0m[90m
+      at Context.<anonymous> (tests/test-XenoFelix.js:420:47)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------|----------|----------|----------|----------|----------------|
+File            |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------|----------|----------|----------|----------|----------------|
+ contracts/     |    57.33 |    36.11 |     74.6 |    56.96 |                |
+  XenoFelix.sol |    57.33 |    36.11 |     74.6 |    56.96 |... 617,618,622 |
+----------------|----------|----------|----------|----------|----------------|
+All files       |    57.33 |    36.11 |     74.6 |    56.96 |                |
+----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 13 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

@@ -1,0 +1,135 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> FrogDAOGovernanceRewards_utils.sol
+> FrogDAOGovernanceRewards.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/FrogDAOGovernanceRewards.sol
+> Compiling ./.coverage_contracts/FrogDAOGovernanceRewards_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: FrogDAOGovernanceRewards[0m
+  [31m  1) test for FrogDAOGovernanceRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x06e9260C1f1220E2B0c428D9d0dbA566e5ffB827[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (309ms)[0m
+  [31m  2) test for FrogDAOGovernanceRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xdF430eB76141ec5B163BbA45fE366DCfC0e632D7[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (192ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (191ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (223ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (247ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (209ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (165ms)[0m
+  [31m  3) test for FrogDAOGovernanceRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (189ms)[0m
+  [32m  ✓[0m[90m test for FrogDAOGovernanceRewards[0m[31m (182ms)[0m
+  [31m  4) test for FrogDAOGovernanceRewards[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x8Dbc83416F97e5e9C975ebBE018d1c40270e2849[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 9 passing[0m[90m (4s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: FrogDAOGovernanceRewards
+       test for FrogDAOGovernanceRewards:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert dev only[0m[90m
+      at Context.<anonymous> (tests/test-FrogDAOGovernanceRewards.js:13:57)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: FrogDAOGovernanceRewards
+       test for FrogDAOGovernanceRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-FrogDAOGovernanceRewards.js:42:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: FrogDAOGovernanceRewards
+       test for FrogDAOGovernanceRewards:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-FrogDAOGovernanceRewards.js:132:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: FrogDAOGovernanceRewards
+       test for FrogDAOGovernanceRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-FrogDAOGovernanceRewards.js:181:59)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------------------|----------|----------|----------|----------|----------------|
+File                                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------------------|----------|----------|----------|----------|----------------|
+ contracts/                          |    52.07 |    39.66 |       62 |    51.97 |                |
+  FrogDAOGovernanceRewards.sol       |    55.36 |    53.85 |    81.25 |    54.24 |... 181,201,203 |
+  FrogDAOGovernanceRewards_utils.sol |    49.23 |    28.13 |    52.94 |       50 |... 548,549,550 |
+-------------------------------------|----------|----------|----------|----------|----------------|
+All files                            |    52.07 |    39.66 |       62 |    51.97 |                |
+-------------------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

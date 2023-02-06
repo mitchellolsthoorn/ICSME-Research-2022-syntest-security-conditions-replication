@@ -1,0 +1,140 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Fomp.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Fomp.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/Fomp.sol:6:1: Warning: Experimental features are turned on. Do not use experimental features on live deployments.
+pragma experimental ABIEncoderV2;
+^-------------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Fomp[0m
+  [32m  ✓[0m[90m test for Fomp[0m[31m (1078ms)[0m
+  [32m  ✓[0m[90m test for Fomp[0m[31m (309ms)[0m
+  [32m  ✓[0m[90m test for Fomp[0m[31m (310ms)[0m
+  [32m  ✓[0m[90m test for Fomp[0m[31m (195ms)[0m
+  [32m  ✓[0m[90m test for Fomp[0m[31m (369ms)[0m
+  [31m  1) test for Fomp[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Fomp.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xe99B09C81A665Da38AD72Bd6A1150A8De3977556[39m (type: address),
+      amount: [33m1000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  2) test for Fomp[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Fomp.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x12F5CbBd0b64BA8Fb3E898012FFa5a27422c2A73[39m (type: address),
+      amount: [33m1000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  3) test for Fomp[0m
+    > No events were emitted
+  [31m  4) test for Fomp[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Fomp.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x12F5CbBd0b64BA8Fb3E898012FFa5a27422c2A73[39m (type: address),
+      amount: [33m1000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Fomp[0m[31m (139ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (4s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: Fomp
+       test for Fomp:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Comp::getPriorVotes: not yet determined[0m[90m
+      at Context.<anonymous> (tests/test-Fomp.js:125:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Fomp
+       test for Fomp:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Comp::getPriorVotes: not yet determined[0m[90m
+      at Context.<anonymous> (tests/test-Fomp.js:147:56)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: Fomp
+       test for Fomp:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Fomp.js:155:37)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: Fomp
+       test for Fomp:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Comp::getPriorVotes: not yet determined[0m[90m
+      at Context.<anonymous> (tests/test-Fomp.js:180:56)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+------------|----------|----------|----------|----------|----------------|
+File        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------|----------|----------|----------|----------|----------------|
+ contracts/ |    61.54 |     37.5 |      100 |    61.96 |                |
+  Fomp.sol  |    61.54 |     37.5 |      100 |    61.96 |... 257,273,300 |
+------------|----------|----------|----------|----------|----------------|
+All files   |    61.54 |     37.5 |      100 |    61.96 |                |
+------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

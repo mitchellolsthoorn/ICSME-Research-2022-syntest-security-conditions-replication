@@ -1,0 +1,199 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> HungryHoody.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/HungryHoody.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: HungryHoody[0m
+  [31m  1) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xFDB06b12b6687a1A2887c9fEAaa0888484e4Cb87[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  2) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xFDB06b12b6687a1A2887c9fEAaa0888484e4Cb87[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  3) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xaB64aa8537AdBCbc3164249a77605E501fa1e863[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  4) test for HungryHoody[0m
+    > No events were emitted
+  [31m  5) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x476AB6112854BFFfa50F63CEF84BD629A2dB6CED[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  6) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x8d567755ed65c3C2Ec6174Bf4AB1E1ACd8A2bc95[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  7) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x8d567755ed65c3C2Ec6174Bf4AB1E1ACd8A2bc95[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  8) test for HungryHoody[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x8d567755ed65c3C2Ec6174Bf4AB1E1ACd8A2bc95[39m (type: address),
+      tokens: [33m25000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 0 passing[0m[90m (3s)[0m
+[31m  8 failing[0m
+
+[0m  1) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  2) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-HungryHoody.js:38:54)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-HungryHoody.js:57:56)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-HungryHoody.js:67:51)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  6) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  7) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-HungryHoody.js:128:54)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: HungryHoody
+       test for HungryHoody:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-HungryHoody.js:141:54)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+------------------|----------|----------|----------|----------|----------------|
+File              |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+------------------|----------|----------|----------|----------|----------------|
+ contracts/       |       75 |       50 |    77.78 |       75 |                |
+  HungryHoody.sol |       75 |       50 |    77.78 |       75 |... 90,91,92,93 |
+------------------|----------|----------|----------|----------|----------------|
+All files         |       75 |       50 |    77.78 |       75 |                |
+------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 8 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

@@ -1,0 +1,125 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> MisesLegacyPool_utils.sol
+> MisesLegacyPool.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/MisesLegacyPool.sol
+> Compiling ./.coverage_contracts/MisesLegacyPool_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: MisesLegacyPool[0m
+  [32m  ✓[0m[90m test for MisesLegacyPool[0m[31m (1290ms)[0m
+  [32m  ✓[0m[90m test for MisesLegacyPool[0m[31m (339ms)[0m
+  [31m  1) test for MisesLegacyPool[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x2620678763f189f1402e222ca47F9F9de7B84Efe[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for MisesLegacyPool[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9134D41A485DD2E0919dD5C65F36eb5dBa16E94A[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for MisesLegacyPool[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x578fC9de4bA9898caf19A2e30C177C6C97094260[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for MisesLegacyPool[0m
+    > No events were emitted
+
+
+[92m [0m[32m 2 passing[0m[90m (3s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: MisesLegacyPool
+       test for MisesLegacyPool:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  2) Contract: MisesLegacyPool
+       test for MisesLegacyPool:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-MisesLegacyPool.js:69:52)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: MisesLegacyPool
+       test for MisesLegacyPool:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  4) Contract: MisesLegacyPool
+       test for MisesLegacyPool:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-MisesLegacyPool.js:96:59)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------------|----------|----------|----------|----------|----------------|
+File                        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                 |    47.27 |    22.92 |    60.42 |    47.41 |                |
+  MisesLegacyPool.sol       |    45.45 |     37.5 |    90.91 |    47.83 |... 172,173,174 |
+  MisesLegacyPool_utils.sol |    48.48 |    15.63 |    51.35 |    47.14 |... 537,538,545 |
+----------------------------|----------|----------|----------|----------|----------------|
+All files                   |    47.27 |    22.92 |    60.42 |    47.41 |                |
+----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

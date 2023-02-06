@@ -1,0 +1,229 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Revive.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Revive.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Revive[0m
+  [31m  1) test for Revive[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for Revive[0m[31m (505ms)[0m
+  [31m  2) test for Revive[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3e125a5B827EdC58deA93f6effc3020cb21A8072[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x3e125a5B827EdC58deA93f6effc3020cb21A8072[39m (type: address),
+      value: [33m3000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Revive[0m[31m (812ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (1040ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (177ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (322ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (254ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (265ms)[0m
+  [31m  3) test for Revive[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xa523f64151a86022F0d82D2cEbfA0D60235e2934[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xa523f64151a86022F0d82D2cEbfA0D60235e2934[39m (type: address),
+      value: [33m3000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Revive[0m[31m (167ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (215ms)[0m
+  [31m  4) test for Revive[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xa523f64151a86022F0d82D2cEbfA0D60235e2934[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xa523f64151a86022F0d82D2cEbfA0D60235e2934[39m (type: address),
+      value: [33m3000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Revive[0m[31m (302ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (197ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (138ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (163ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (213ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (111ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (256ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (163ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (112ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (872ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (439ms)[0m
+  [31m  5) test for Revive[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3e125a5B827EdC58deA93f6effc3020cb21A8072[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x3e125a5B827EdC58deA93f6effc3020cb21A8072[39m (type: address),
+      value: [33m3000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Revive[0m[31m (1621ms)[0m
+  [31m  6) test for Revive[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x79a614CDb47B62DD26c56a10E1Ef6b2496e11c92[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x79a614CDb47B62DD26c56a10E1Ef6b2496e11c92[39m (type: address),
+      value: [33m3000000000000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Revive[0m[31m (136ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (147ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (179ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (155ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (152ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (212ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (176ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (172ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (170ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (202ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (139ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (178ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (232ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (242ms)[0m
+  [32m  ✓[0m[90m test for Revive[0m[31m (156ms)[0m
+
+
+[92m [0m[32m 36 passing[0m[90m (16s)[0m
+[31m  6 failing[0m
+
+[0m  1) Contract: Revive
+       test for Revive:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:8:41)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Revive
+       test for Revive:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:50:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: Revive
+       test for Revive:
+[0m[31m     AssertionError: expected '0xa523f64151a86022F0d82D2cEbfA0D60235e2934' to equal 4.191094105396224e+47[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:171:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: Revive
+       test for Revive:
+[0m[31m     AssertionError: expected '0xa523f64151a86022F0d82D2cEbfA0D60235e2934' to equal 4.191094105396224e+47[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:229:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: Revive
+       test for Revive:
+[0m[31m     AssertionError: expected '0x3e125a5B827EdC58deA93f6effc3020cb21A8072' to equal 1.0794976472766437e+48[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:428:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: Revive
+       test for Revive:
+[0m[31m     AssertionError: expected '0x79a614CDb47B62DD26c56a10E1Ef6b2496e11c92' to equal 1.0265632931833441e+48[0m[90m
+      at Context.<anonymous> (tests/test-Revive.js:456:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------|----------|----------|----------|----------|----------------|
+File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------|----------|----------|----------|----------|----------------|
+ contracts/  |    65.14 |    42.31 |    81.58 |    65.45 |                |
+  Revive.sol |    65.14 |    42.31 |    81.58 |    65.45 |... 700,713,718 |
+-------------|----------|----------|----------|----------|----------------|
+All files    |    65.14 |    42.31 |    81.58 |    65.45 |                |
+-------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 6 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

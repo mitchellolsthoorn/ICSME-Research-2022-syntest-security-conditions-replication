@@ -1,0 +1,196 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Cover_ZapIn_General_V1.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Cover_ZapIn_General_V1.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Cover_ZapIn_General_V1[0m
+  [31m  1) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5f9c820d7d7c74d0Eb5C70F23c8197ec9F5C2865[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5ab80dDD99B61e88672450F9747255DD4F0dA5e8[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xceC7369E3fFa4c7e6e6B13f34ED48cf385845104[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x1115Ff6cf0905dd3CdEAAadceA88f8a4dd390273[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xceC7369E3fFa4c7e6e6B13f34ED48cf385845104[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for Cover_ZapIn_General_V1[0m
+    > No events were emitted
+  [31m  7) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x07d4feE0a59791E6e392403CC63baD6C38913298[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  8) test for Cover_ZapIn_General_V1[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x5f9c820d7d7c74d0Eb5C70F23c8197ec9F5C2865[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 0 passing[0m[90m (4s)[0m
+[31m  8 failing[0m
+
+[0m  1) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:16:51)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:30:56)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert SafeERC20: call to non-contract[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:49:53)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:60:83)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert SafeERC20: call to non-contract[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:80:52)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:89:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:139:48)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: Cover_ZapIn_General_V1
+       test for Cover_ZapIn_General_V1:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Cover_ZapIn_General_V1.js:155:62)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------------------|----------|----------|----------|----------|----------------|
+File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                  |    23.85 |       15 |    42.86 |    26.12 |                |
+  Cover_ZapIn_General_V1.sol |    23.85 |       15 |    42.86 |    26.12 |... 9,1010,1011 |
+-----------------------------|----------|----------|----------|----------|----------------|
+All files                    |    23.85 |       15 |    42.86 |    26.12 |                |
+-----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 8 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

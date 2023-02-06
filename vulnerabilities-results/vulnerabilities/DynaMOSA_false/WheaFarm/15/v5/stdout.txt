@@ -1,0 +1,47 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> WheatFarm.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/WheatFarm.sol
+
+> solidity-coverage cleaning up, shutting down ganache server
+CompileError: project:/.coverage_contracts/WheatFarm.sol:520:11: TypeError: Wrong argument count for function call: 1 arguments given but expected 2.
+require(!(condition(_from), _value));c_0x5586b81f(0x834b748836f2daaefd01567f0dc453ecb06d33eefcb566f0290f7361e74ed109); /* requirePost */ 
+          ^--------------^
+,project:/.coverage_contracts/WheatFarm.sol:520:9: TypeError: Unary operator ! cannot be applied to type tuple(bool,uint256)
+require(!(condition(_from), _value));c_0x5586b81f(0x834b748836f2daaefd01567f0dc453ecb06d33eefcb566f0290f7361e74ed109); /* requirePost */ 
+        ^-------------------------^
+,project:/.coverage_contracts/WheatFarm.sol:520:1: TypeError: No matching declaration found after argument-dependent lookup.
+require(!(condition(_from), _value));c_0x5586b81f(0x834b748836f2daaefd01567f0dc453ecb06d33eefcb566f0290f7361e74ed109); /* requirePost */ 
+^-----^
+Candidate: function require(bool)
+Candidate: function require(bool, string memory)
+
+Compilation failed. See above.
+    at run (/usr/local/lib/node_modules/truffle/build/webpack:/packages/compile-solidity/run.js:62:1)
+    at Object.sourcesWithDependencies (/usr/local/lib/node_modules/truffle/build/webpack:/packages/compile-solidity/index.js:150:1)
+    at all (/usr/local/lib/node_modules/truffle/build/webpack:/packages/compile-solidity/index.js:81:1)
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/workflow-compile/legacy/index.js:98:31
+    at async Promise.all (index 0)
+    at Object.compile (/usr/local/lib/node_modules/truffle/build/webpack:/packages/workflow-compile/legacy/index.js:50:1)
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:97:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

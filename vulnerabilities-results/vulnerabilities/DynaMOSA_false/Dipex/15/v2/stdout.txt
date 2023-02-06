@@ -1,0 +1,28 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Dipex.sol
+> solidity-coverage cleaning up, shutting down ganache server
+Error: Could not instrument: Dipex.sol. (Please verify solc can compile this file without errors.) extraneous input ')' expecting ';' (81:46)
+    at Object.parse (/app/node_modules/@solidity-parser/parser/src/parser.ts:81:11)
+    at Instrumenter.instrument (/app/node_modules/solidity-coverage/lib/instrumenter.js:67:30)
+    at API.instrument (/app/node_modules/solidity-coverage/lib/api.js:91:48)
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:72:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

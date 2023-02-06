@@ -1,0 +1,478 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> BACMARSLPTOKENPool.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/BACMARSLPTOKENPool.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: BACMARSLPTOKENPool[0m
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (1282ms)[0m
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (395ms)[0m
+  [31m  1) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  2) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  3) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  4) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (227ms)[0m
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (238ms)[0m
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (186ms)[0m
+  [31m  5) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  6) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  7) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  8) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  9) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  10) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  11) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  12) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  13) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for BACMARSLPTOKENPool[0m[31m (199ms)[0m
+  [31m  14) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  15) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  16) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  17) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  18) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  19) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  20) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  21) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  22) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  23) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  24) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  25) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  26) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  27) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  28) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  29) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  30) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  31) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  32) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  33) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  34) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  35) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  36) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  37) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  38) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  39) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  40) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  41) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  42) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  43) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  44) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  45) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  46) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+  [31m  47) test for BACMARSLPTOKENPool[0m
+    > No events were emitted
+
+
+[92m [0m[32m 6 passing[0m[90m (5s)[0m
+[31m  47 failing[0m
+
+[0m  1) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="fMLuqDrlHEfeRIczAD6ZHbOiivyqe3EL5DUiphmjbKyA8mZJtVYUzeTNYpkF9V", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="fMLuqDrlHEfeRIczAD6ZHbOiivyqe3EL5DUiphmjbKyA8mZJtVYUzeTNYpkF9V", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:46:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:65:46)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="hd4AcjWpBhq9R6KtMrmcZHGWY8DlE5xCNVtjhFw7ZxyWtu2eSonsDAxXF19", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="hd4AcjWpBhq9R6KtMrmcZHGWY8DlE5xCNVtjhFw7ZxyWtu2eSonsDAxXF19", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:72:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="cbfAsOeLpz3NSWRbfEScIKPjzx4gQ4hJLvH8u9Mc7nxjocwtJNGyGe2vEtuNz7gx6MRFqWzdyTgQ", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="cbfAsOeLpz3NSWRbfEScIKPjzx4gQ4hJLvH8u9Mc7nxjocwtJNGyGe2vEtuNz7gx6MRFqWzdyTgQ", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:87:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="jQdg0fnQ8cCvEzrBR314vEXw2dB2VwdOHpubbPIhzLquCQqVO3zVC52lxcTMKTlqHfXW4gWDDL2CANwgVJYPj1Dzz7TE1zWg5", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="jQdg0fnQ8cCvEzrBR314vEXw2dB2VwdOHpubbPIhzLquCQqVO3zVC52lxcTMKTlqHfXW4gWDDL2CANwgVJYPj1Dzz7TE1zWg5", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:150:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  7) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  8) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="dLawrJcYCAiOuuxj2JAc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="dLawrJcYCAiOuuxj2JAc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:187:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  10) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="vEM8uOGL9iYs8xSbcg2wpsRnq9npTYJxSxnAlmrbeDMOPXLKbliRILSgr", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="vEM8uOGL9iYs8xSbcg2wpsRnq9npTYJxSxnAlmrbeDMOPXLKbliRILSgr", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:212:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="hLBAr7ZwNnPGEyvvGM67qLlBRNMi5MJB7mloHaJvwb6qxt6qrmkR7khvA4MwHDSy", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="hLBAr7ZwNnPGEyvvGM67qLlBRNMi5MJB7mloHaJvwb6qxt6qrmkR7khvA4MwHDSy", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:224:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="ad32JNUqve", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="ad32JNUqve", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:236:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="Rw1HggVqSc5uMkn37l", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="Rw1HggVqSc5uMkn37l", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:253:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="zMOYiAJoXx2LdhhMIA6TLkTSd1DVyKbxFhcBNiOS73a07Wjrz5oBEKDL9fFIcDnD8RRz5GQektkWQhNO", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="zMOYiAJoXx2LdhhMIA6TLkTSd1DVyKbxFhcBNiOS73a07Wjrz5oBEKDL9fFIcDnD8RRz5GQektkWQhNO", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:282:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="bsamdHDgLVYgm4XYg", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="bsamdHDgLVYgm4XYg", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:292:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="QZTOXYeNn6c6r8i3T0vPoENPQLAsbvnSVVolqjxpSqAHnwQW", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="QZTOXYeNn6c6r8i3T0vPoENPQLAsbvnSVVolqjxpSqAHnwQW", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:312:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="bpfXlo9NkEh4aXHOG9CJJs3m903M6IljFogNPbTxnvSjh9fA1wuK9ksEEzN", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="bpfXlo9NkEh4aXHOG9CJJs3m903M6IljFogNPbTxnvSjh9fA1wuK9ksEEzN", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:322:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  18) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="JlmrfEX2n9k4Qg8fdkaQgFT5zqTDQiul3eW4YLS2tIVWMg5cyUtinMtUXL1pNvIYgkxEXnibayvxx", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="JlmrfEX2n9k4Qg8fdkaQgFT5zqTDQiul3eW4YLS2tIVWMg5cyUtinMtUXL1pNvIYgkxEXnibayvxx", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:333:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  19) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="bNlUnVl67bhLlAALrXkmOpKnCjNrODDVq4EM2LmArzrW78dj8y7qQtt8LlYhh02fP1n5yoTuxEJ5kBbzRepVwybj4Lc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="bNlUnVl67bhLlAALrXkmOpKnCjNrODDVq4EM2LmArzrW78dj8y7qQtt8LlYhh02fP1n5yoTuxEJ5kBbzRepVwybj4Lc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:345:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  20) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="U8BX3MDCpon5fKv3zai9PeU9llGf1x8QhVtTDzXUCDnlAiqO8mHQ", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="U8BX3MDCpon5fKv3zai9PeU9llGf1x8QhVtTDzXUCDnlAiqO8mHQ", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:357:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  21) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="RFIYj7IDJLGiz26EBxRySsbeb0d2N4fiptHgBxcn6SJQYqB9Y", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="RFIYj7IDJLGiz26EBxRySsbeb0d2N4fiptHgBxcn6SJQYqB9Y", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:371:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  22) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="yyyew3jsYUfFeN3JnAFbbBMNMFzXZzuKip1s6L6aaBpNJ1KO84SiOwQ9koVBLzyD6YgnSCJQA", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="yyyew3jsYUfFeN3JnAFbbBMNMFzXZzuKip1s6L6aaBpNJ1KO84SiOwQ9koVBLzyD6YgnSCJQA", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:389:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  23) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="87bizTaxg5UXpAxNehJTAfiTdwtblf8g2J9lwO4yR53hXhOcErdGE1gk9LPmvNQfZS6KQEyvO5", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="87bizTaxg5UXpAxNehJTAfiTdwtblf8g2J9lwO4yR53hXhOcErdGE1gk9LPmvNQfZS6KQEyvO5", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:400:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  24) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:419:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  25) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="8bgxWlLDV4DWoVOVzncPkijPodIITY25A0geHuc3HuI", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="8bgxWlLDV4DWoVOVzncPkijPodIITY25A0geHuc3HuI", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:438:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  26) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="rlIe4dDQ1AQKlnyD64jnEz4PeUrW", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="rlIe4dDQ1AQKlnyD64jnEz4PeUrW", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:450:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  27) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="1JU4VfmIaSkHCEOjSCctW4RPkEIqbx7Jqkf7VbIn9cSamU8DvvBlbA5EgikQsGhVB6cjUm5Y9J7DrN1il7ULXT8X9wgmbNT33", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="1JU4VfmIaSkHCEOjSCctW4RPkEIqbx7Jqkf7VbIn9cSamU8DvvBlbA5EgikQsGhVB6cjUm5Y9J7DrN1il7ULXT8X9wgmbNT33", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:459:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  28) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="dhxRAdaerRVR2NwBEvpcTxj23F2p0xhFATYn9dKCH4h8rBHW1bzYy9kohv4PivyIlRXJ8MjTEahLDVWFKsZEjdwa7LOvsDYhL", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="dhxRAdaerRVR2NwBEvpcTxj23F2p0xhFATYn9dKCH4h8rBHW1bzYy9kohv4PivyIlRXJ8MjTEahLDVWFKsZEjdwa7LOvsDYhL", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:471:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  29) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="AZIUqxqrnnRuxaaairocmy1yQnTJ", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="AZIUqxqrnnRuxaaairocmy1yQnTJ", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:482:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  30) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="WnslarsIGx27SNVv2spnSTs6wfUsn71ooDBmG9kHGu19XI349gs5TjfCVG8us5fi98QRMlbzZWuS73jmrqBsDYuiJE", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="WnslarsIGx27SNVv2spnSTs6wfUsn71ooDBmG9kHGu19XI349gs5TjfCVG8us5fi98QRMlbzZWuS73jmrqBsDYuiJE", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:494:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  31) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="L2WqPMzTjjR1lxWG1eFedfHHkFu3PkuxN1ndydWC2GIXIIkCm36whoEs3E", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="L2WqPMzTjjR1lxWG1eFedfHHkFu3PkuxN1ndydWC2GIXIIkCm36whoEs3E", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:512:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  32) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="fQfDnEMV", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="fQfDnEMV", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:522:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  33) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="R", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="R", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:536:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  34) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="8iqP6yTHZtNAC8Ze91Ph5igz7YdXDnAlIyhp9XcMTWTigO", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="8iqP6yTHZtNAC8Ze91Ph5igz7YdXDnAlIyhp9XcMTWTigO", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:549:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  35) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="aVNfbWdSOkOtSQjEgxM7HxH6U7I", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="aVNfbWdSOkOtSQjEgxM7HxH6U7I", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:561:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  36) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="guTUW", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="guTUW", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:575:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  37) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="hBpApqd8erbv0eIVc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="hBpApqd8erbv0eIVc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:585:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  38) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="tVLHuWdMBd3Y7pYaSei4HHHNnUZCYijdI0tJkGowHjmRybO6UAXEk4zlR9MLWawyrHCxExI6HbicJkQu", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="tVLHuWdMBd3Y7pYaSei4HHHNnUZCYijdI0tJkGowHjmRybO6UAXEk4zlR9MLWawyrHCxExI6HbicJkQu", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:595:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  39) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="fxedClaYHAsQbUk9Sb3qoMOYiyM8JMAprMYBdm53iAD2GY", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="fxedClaYHAsQbUk9Sb3qoMOYiyM8JMAprMYBdm53iAD2GY", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:615:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  40) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="zKmUNNejh3bMIT5f9RLm9htqW5HIj21CYh3WOcQQDacPD7yRb8", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="zKmUNNejh3bMIT5f9RLm9htqW5HIj21CYh3WOcQQDacPD7yRb8", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:626:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  41) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="PffoVoz5SUvoQ63dY9dO38xuj7SAfd6rpLpX3ofkPw9eOb", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="PffoVoz5SUvoQ63dY9dO38xuj7SAfd6rpLpX3ofkPw9eOb", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:642:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  42) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="E4UVqyqxavbf51qp8v8VTMehYO7wKbRB5xlK1C4oeTKHchWJN8REVibO3IeYPGHdN8xrRUjcPKTXyq9dIilXltuHvMJI", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="E4UVqyqxavbf51qp8v8VTMehYO7wKbRB5xlK1C4oeTKHchWJN8REVibO3IeYPGHdN8xrRUjcPKTXyq9dIilXltuHvMJI", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:656:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  43) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="MJ5Ein1rQKERWREkdbrwpVRwklNlLzFI", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="MJ5Ein1rQKERWREkdbrwpVRwklNlLzFI", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:674:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  44) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="1xncgIpr7LdueYowjE0hS1oecpxSc5XecCjibSyWhos9ovtUn35qTeRnR4QBoRXnD7IYRmoYL", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="1xncgIpr7LdueYowjE0hS1oecpxSc5XecCjibSyWhos9ovtUn35qTeRnR4QBoRXnD7IYRmoYL", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:686:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  45) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="b8NqWSEhUIbuO15771wPFm2ozaTmunT2fWMTHv2tHDf", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="b8NqWSEhUIbuO15771wPFm2ozaTmunT2fWMTHv2tHDf", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:701:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  46) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="iRw2EwGrLqLMlqAPzBHkbQ4F5dRsXKmeGiDY4p6raKiXwiTUN2UHXymE99efN1gheJ71Gcz6pfVNfMHR1FjFB80Yv5", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="iRw2EwGrLqLMlqAPzBHkbQ4F5dRsXKmeGiDY4p6raKiXwiTUN2UHXymE99efN1gheJ71Gcz6pfVNfMHR1FjFB80Yv5", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:712:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  47) Contract: BACMARSLPTOKENPool
+       test for BACMARSLPTOKENPool:
+[0m[31m     Error: invalid address (argument="address", value="A9WI5DMWbIe263MCMefNfg2FkbqJZo6mbo4suqorYA7WYS4gOs1dbbwIMtub4dasGO6ULjnzdiQosvPKhMc4qb3aMDb5A1n", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="A9WI5DMWbIe263MCMefNfg2FkbqJZo6mbo4suqorYA7WYS4gOs1dbbwIMtub4dasGO6ULjnzdiQosvPKhMc4qb3aMDb5A1n", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-BACMARSLPTOKENPool.js:728:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------|----------|----------|----------|----------|----------------|
+File                     |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------|----------|----------|----------|----------|----------------|
+ contracts/              |    52.13 |     38.1 |    63.89 |    54.08 |                |
+  BACMARSLPTOKENPool.sol |    52.13 |     38.1 |    63.89 |    54.08 |... 569,570,571 |
+-------------------------|----------|----------|----------|----------|----------------|
+All files                |    52.13 |     38.1 |    63.89 |    54.08 |                |
+-------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 47 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

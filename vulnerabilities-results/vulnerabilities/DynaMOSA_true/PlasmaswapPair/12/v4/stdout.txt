@@ -1,0 +1,87 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> PlasmaswapPair_utils.sol
+> PlasmaswapPair.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/PlasmaswapPair.sol
+> Compiling ./.coverage_contracts/PlasmaswapPair_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: PlasmaswapPair[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (1035ms)[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (229ms)[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (201ms)[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (194ms)[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (156ms)[0m
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (187ms)[0m
+  [31m  1) test for PlasmaswapPair[0m
+    > No events were emitted
+  [31m  2) test for PlasmaswapPair[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for PlasmaswapPair[0m[31m (160ms)[0m
+
+
+[92m [0m[32m 7 passing[0m[90m (3s)[0m
+[31m  2 failing[0m
+
+[0m  1) Contract: PlasmaswapPair
+       test for PlasmaswapPair:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-PlasmaswapPair.js:117:43)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: PlasmaswapPair
+       test for PlasmaswapPair:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-PlasmaswapPair.js:121:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+---------------------------|----------|----------|----------|----------|----------------|
+File                       |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+---------------------------|----------|----------|----------|----------|----------------|
+ contracts/                |    15.38 |     6.45 |    32.14 |    16.55 |                |
+  PlasmaswapPair.sol       |    19.05 |      8.7 |    57.14 |     19.8 |... 236,237,245 |
+  PlasmaswapPair_utils.sol |     5.26 |        0 |     7.14 |     7.89 |... 194,195,198 |
+---------------------------|----------|----------|----------|----------|----------------|
+All files                  |    15.38 |     6.45 |    32.14 |    16.55 |                |
+---------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 2 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

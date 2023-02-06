@@ -1,0 +1,170 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> SpiritCoin.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/SpiritCoin.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: SpiritCoin[0m
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (1043ms)[0m
+  [31m  1) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x4748f036B6b78d7DF03ef89d011814e18886037e[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0xCa4E41dDddB1A47108cC2B9a4574F0BB9351fb3C[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x4748f036B6b78d7DF03ef89d011814e18886037e[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x387b84216D582cBeBe9ead9cA1CF2C291bfC48b4[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (479ms)[0m
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (712ms)[0m
+  [32m  ✓[0m[90m test for SpiritCoin[0m[31m (224ms)[0m
+  [31m  3) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x4748f036B6b78d7DF03ef89d011814e18886037e[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x387b84216D582cBeBe9ead9cA1CF2C291bfC48b4[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for SpiritCoin[0m
+    > No events were emitted
+  [31m  5) test for SpiritCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    SpiritCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xCa4E41dDddB1A47108cC2B9a4574F0BB9351fb3C[39m (type: address),
+      amount: [33m10000000000000000000000000[39m (type: uint256)
+    )
+
+    SpiritCoin.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x8C7076C693fA1be617D167B96003C2b0257d22b8[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 4 passing[0m[90m (5s)[0m
+[31m  5 failing[0m
+
+[0m  1) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::approve: amount exceeds 96 bits[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:38:55)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::approve: amount exceeds 96 bits[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:62:55)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::approve: amount exceeds 96 bits[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:149:55)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:165:49)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: SpiritCoin
+       test for SpiritCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::approve: amount exceeds 96 bits[0m[90m
+      at Context.<anonymous> (tests/test-SpiritCoin.js:188:54)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |    22.37 |     11.9 |    34.78 |    22.37 |                |
+  SpiritCoin.sol |    22.37 |     11.9 |    34.78 |    22.37 |... 374,378,379 |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |    22.37 |     11.9 |    34.78 |    22.37 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 5 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

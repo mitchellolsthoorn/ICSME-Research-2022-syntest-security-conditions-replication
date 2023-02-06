@@ -1,0 +1,152 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> QuickToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/QuickToken.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/QuickToken.sol:6:1: Warning: Experimental features are turned on. Do not use experimental features on live deployments.
+pragma experimental ABIEncoderV2;
+^-------------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: QuickToken[0m
+  [31m  1) test for QuickToken[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    QuickToken.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xa254bFEaDd652ec1E45DA31BD1FeDEfa2517cBb4[39m (type: address),
+      amount: [33m2000000000000[39m (type: uint256)
+    )
+
+    QuickToken.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x0000000000000000000000000000000000000001[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (244ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (247ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (182ms)[0m
+  [31m  2) test for QuickToken[0m
+    > No events were emitted
+  [31m  3) test for QuickToken[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    QuickToken.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xa254bFEaDd652ec1E45DA31BD1FeDEfa2517cBb4[39m (type: address),
+      amount: [33m2000000000000[39m (type: uint256)
+    )
+
+    QuickToken.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x0000000000000000000000000000000000000001[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (176ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (124ms)[0m
+  [31m  4) test for QuickToken[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    QuickToken.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x9Bc5622d25aA531a11411a753a4965A4a0fb20dE[39m (type: address),
+      amount: [33m2000000000000[39m (type: uint256)
+    )
+
+    QuickToken.MinterChanged(
+      minter: [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newMinter: [33m0x9Bc5622d25aA531a11411a753a4965A4a0fb20dE[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (143ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (3s)[0m
+[31m  4 failing[0m
+
+[0m  1) Contract: QuickToken
+       test for QuickToken:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::_transferTokens: transfer amount overflows[0m[90m
+      at Context.<anonymous> (tests/test-QuickToken.js:17:55)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: QuickToken
+       test for QuickToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-QuickToken.js:94:49)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: QuickToken
+       test for QuickToken:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::_transferTokens: transfer amount overflows[0m[90m
+      at Context.<anonymous> (tests/test-QuickToken.js:119:55)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: QuickToken
+       test for QuickToken:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Quick::mint: transfer amount overflows[0m[90m
+      at Context.<anonymous> (tests/test-QuickToken.js:173:55)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |    63.16 |    45.24 |    69.57 |    63.16 |                |
+  QuickToken.sol |    63.16 |    45.24 |    69.57 |    63.16 |... 364,365,376 |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |    63.16 |    45.24 |    69.57 |    63.16 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 4 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

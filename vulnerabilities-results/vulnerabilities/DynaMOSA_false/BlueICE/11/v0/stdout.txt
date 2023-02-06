@@ -1,0 +1,167 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> BlueICE.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/BlueICE.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: BlueICE[0m
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (1336ms)[0m
+  [31m  1) test for BlueICE[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (254ms)[0m
+  [31m  2) test for BlueICE[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x830D379B4de1164c041782597801f8C2Ac78d7Aa[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (286ms)[0m
+  [31m  3) test for BlueICE[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xBdebBd3CF608756fd6945A529044226B442fA56f[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (216ms)[0m
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (248ms)[0m
+  [31m  4) test for BlueICE[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xBdebBd3CF608756fd6945A529044226B442fA56f[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for BlueICE[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x830D379B4de1164c041782597801f8C2Ac78d7Aa[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for BlueICE[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x6208B0CCD82a79d6c6D9593D76Ffadd949Ef84F2[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for BlueICE[0m[31m (163ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (4s)[0m
+[31m  6 failing[0m
+
+[0m  1) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-BlueICE.js:21:43)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-BlueICE.js:50:41)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     AssertionError: expected [] to equal undefined[0m[90m
+      at Context.<anonymous> (tests/test-BlueICE.js:74:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     AssertionError: expected '0xBdebBd3CF608756fd6945A529044226B442fA56f' to equal 7.2257513347179326e+47[0m[90m
+      at Context.<anonymous> (tests/test-BlueICE.js:118:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  6) Contract: BlueICE
+       test for BlueICE:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: new owner is the zero address[0m[90m
+      at Context.<anonymous> (tests/test-BlueICE.js:133:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+--------------|----------|----------|----------|----------|----------------|
+File          |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+--------------|----------|----------|----------|----------|----------------|
+ contracts/   |    56.41 |    40.38 |    74.42 |    57.38 |                |
+  BlueICE.sol |    56.41 |    40.38 |    74.42 |    57.38 |... 673,674,675 |
+--------------|----------|----------|----------|----------|----------------|
+All files     |    56.41 |    40.38 |    74.42 |    57.38 |                |
+--------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 6 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

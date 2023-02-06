@@ -1,0 +1,93 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> UNIWHALE_ERC20_utils.sol
+> UNIWHALE_ERC20.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/UNIWHALE_ERC20.sol
+> Compiling ./.coverage_contracts/UNIWHALE_ERC20_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: UNIWHALE_ERC20[0m
+  [32m  ✓[0m[90m test for UNIWHALE_ERC20[0m[31m (1165ms)[0m
+  [32m  ✓[0m[90m test for UNIWHALE_ERC20[0m[31m (442ms)[0m
+  [32m  ✓[0m[90m test for UNIWHALE_ERC20[0m[31m (231ms)[0m
+  [32m  ✓[0m[90m test for UNIWHALE_ERC20[0m[31m (210ms)[0m
+  [31m  1) test for UNIWHALE_ERC20[0m
+    > No events were emitted
+  [31m  2) test for UNIWHALE_ERC20[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    ERC20Interface.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x58719c7f63f47c5dA414781A7A9D25C59f6d81e5[39m (type: address),
+      tokens: [33m59049000000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 4 passing[0m[90m (3s)[0m
+[31m  2 failing[0m
+
+[0m  1) Contract: UNIWHALE_ERC20
+       test for UNIWHALE_ERC20:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-UNIWHALE_ERC20.js:85:56)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: UNIWHALE_ERC20
+       test for UNIWHALE_ERC20:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+
+
+---------------------------|----------|----------|----------|----------|----------------|
+File                       |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+---------------------------|----------|----------|----------|----------|----------------|
+ contracts/                |    30.49 |    15.38 |       40 |    30.59 |                |
+  UNIWHALE_ERC20.sol       |    41.46 |    14.29 |     87.5 |    39.53 |... 58,59,60,61 |
+  UNIWHALE_ERC20_utils.sol |    19.51 |    16.67 |    17.65 |    21.43 |... 114,115,118 |
+---------------------------|----------|----------|----------|----------|----------------|
+All files                  |    30.49 |    15.38 |       40 |    30.59 |                |
+---------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 2 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

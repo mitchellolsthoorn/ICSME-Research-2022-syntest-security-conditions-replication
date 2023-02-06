@@ -1,0 +1,506 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> GardenContractV2_utils.sol
+> GardenContractV2.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/GardenContractV2.sol
+> Compiling ./.coverage_contracts/GardenContractV2_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: GardenContractV2[0m
+  [31m  1) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x27F7943CD338643f7d9c1FDE122A84aD551F9A4F[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  2) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for GardenContractV2[0m
+    > No events were emitted
+  [31m  7) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  8) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x27F7943CD338643f7d9c1FDE122A84aD551F9A4F[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  10) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x27F7943CD338643f7d9c1FDE122A84aD551F9A4F[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  11) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  12) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  13) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x6664b98889130871AE8B6d74A17045070582F063[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  14) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  15) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  16) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  17) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  18) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  19) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  20) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  21) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  22) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  23) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  24) test for GardenContractV2[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x29dfDD53224945eAe93a32C1CF8E6f5d52cbF495[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 0 passing[0m[90m (9s)[0m
+[31m  24 failing[0m
+
+[0m  1) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:18:68)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:36:70)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:57:64)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:73:72)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert SafeMath: subtraction overflow[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:89:76)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:99:61)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:118:61)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:137:47)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:157:72)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:174:71)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:191:76)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:207:69)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:220:74)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:238:70)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:255:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert SafeMath: subtraction overflow[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:273:76)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:291:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  18) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:310:61)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  19) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:327:62)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  20) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:341:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  21) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:354:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  22) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:366:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  23) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:378:69)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  24) Contract: GardenContractV2
+       test for GardenContractV2:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: invalid opcode[0m[90m
+      at Context.<anonymous> (tests/test-GardenContractV2.js:391:69)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------------------|----------|----------|----------|----------|----------------|
+File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------------------|----------|----------|----------|----------|----------------|
+ contracts/                  |    20.85 |    11.48 |    35.29 |    20.97 |                |
+  GardenContractV2.sol       |    27.92 |    13.89 |       75 |    27.92 |... 501,503,506 |
+  GardenContractV2_utils.sol |     8.18 |        8 |    11.32 |     8.85 |... 734,760,761 |
+-----------------------------|----------|----------|----------|----------|----------------|
+All files                    |    20.85 |    11.48 |    35.29 |    20.97 |                |
+-----------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 24 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

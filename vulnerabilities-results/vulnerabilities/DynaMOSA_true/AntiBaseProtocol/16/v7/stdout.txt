@@ -1,0 +1,306 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> AntiBaseProtocol.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/AntiBaseProtocol.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/AntiBaseProtocol.sol:152:40: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function sub(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256)
+                                       ^------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: AntiBaseProtocol[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (1251ms)[0m
+  [31m  1) test for AntiBaseProtocol[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (850ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (201ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (189ms)[0m
+  [31m  2) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (190ms)[0m
+  [31m  3) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (207ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (195ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (198ms)[0m
+  [31m  4) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3D6EaDd91CCBD0Bcefe5862c6D7A7097Bb47AB10[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x3D6EaDd91CCBD0Bcefe5862c6D7A7097Bb47AB10[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  5) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (206ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (292ms)[0m
+  [31m  6) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  7) test for AntiBaseProtocol[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (170ms)[0m
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (194ms)[0m
+  [31m  8) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  9) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x55aD5f90e0c4c146e7C9A9CFC715BA4dc5bde1B9[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x55aD5f90e0c4c146e7C9A9CFC715BA4dc5bde1B9[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  10) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  11) test for AntiBaseProtocol[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address)
+    )
+
+    IERC20.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xb6B16F036F9fa323f670671edd576cb3C703e672[39m (type: address),
+      value: [33m31250000000000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for AntiBaseProtocol[0m[31m (180ms)[0m
+
+
+[92m [0m[32m 13 passing[0m[90m (7s)[0m
+[31m  11 failing[0m
+
+[0m  1) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     Error: Invalid number of parameters for "undefined". Got 4 expected 0![0m[90m
+      at Context.<anonymous> (tests/test-AntiBaseProtocol.js:22:61)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+[0m  3) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-AntiBaseProtocol.js:106:50)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  5) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  6) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected '0xb6B16F036F9fa323f670671edd576cb3C703e672' to equal 1.079730883527654e+47[0m[90m
+      at Context.<anonymous> (tests/test-AntiBaseProtocol.js:232:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-AntiBaseProtocol.js:238:61)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  9) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  10) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  11) Contract: AntiBaseProtocol
+       test for AntiBaseProtocol:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with true[0m[90m
+  
+[0m
+
+
+-----------------------|----------|----------|----------|----------|----------------|
+File                   |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------------|----------|----------|----------|----------|----------------|
+ contracts/            |    85.57 |    53.33 |     88.1 |    84.16 |                |
+  AntiBaseProtocol.sol |    85.57 |    53.33 |     88.1 |    84.16 |... 346,349,351 |
+-----------------------|----------|----------|----------|----------|----------------|
+All files              |    85.57 |    53.33 |     88.1 |    84.16 |                |
+-----------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 11 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

@@ -1,0 +1,266 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> DJCoin.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/DJCoin.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: DJCoin[0m
+  [31m  1) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  2) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  3) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DJCoin[0m[31m (821ms)[0m
+  [31m  4) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xdA0A82A1b1DFFb0Af64A1c8b63a039a7fB022D7f[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xdA0A82A1b1DFFb0Af64A1c8b63a039a7fB022D7f[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  5) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x454BCae604fd66E295A99c8512c029C46a2E8757[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x454BCae604fd66E295A99c8512c029C46a2E8757[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  6) test for DJCoin[0m
+    > No events were emitted
+  [31m  7) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xdA0A82A1b1DFFb0Af64A1c8b63a039a7fB022D7f[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xdA0A82A1b1DFFb0Af64A1c8b63a039a7fB022D7f[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [31m  8) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DJCoin[0m[31m (257ms)[0m
+  [31m  9) test for DJCoin[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address)
+    )
+
+    DJCoin.Transfer(
+      from: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      to: <indexed> [33m0xca6F3241CBefBA4996eb36b14Fb582b983bA7b04[39m (type: address),
+      value: [33m2100000000000[39m (type: uint256)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for DJCoin[0m[31m (187ms)[0m
+
+
+[92m [0m[32m 3 passing[0m[90m (4s)[0m
+[31m  9 failing[0m
+
+[0m  1) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:26:45)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:46:45)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     AssertionError: expected '0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB' to equal 1.0574793201381113e+48[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:63:10)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with <BN: 1ba400ae280>[0m[90m
+  
+[0m
+[0m  5) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:116:51)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:126:40)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with <BN: 1b3bf48e800>[0m[90m
+  
+[0m
+[0m  8) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     AssertionError: expected '0x9e98b739a0E535e8e66A7AD909E5607ac2F9EfCB' to equal 1.0574793201381113e+48[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:178:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: DJCoin
+       test for DJCoin:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-DJCoin.js:210:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------|----------|----------|----------|----------|----------------|
+File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------|----------|----------|----------|----------|----------------|
+ contracts/  |    71.43 |    41.18 |       80 |    72.04 |                |
+  DJCoin.sol |    71.43 |    41.18 |       80 |    72.04 |... 262,264,288 |
+-------------|----------|----------|----------|----------|----------------|
+All files    |    71.43 |    41.18 |       80 |    72.04 |                |
+-------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

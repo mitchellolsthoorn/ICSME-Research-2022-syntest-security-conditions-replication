@@ -1,0 +1,184 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> Liquidity_v8.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/Liquidity_v8.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: Liquidity_v8[0m
+  [31m  1) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x60727789C11B50ce7320aB04D7d3198fbC36e82d[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Liquidity_v8[0m[31m (272ms)[0m
+  [31m  2) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xCF7495BCE503d3b950cC806BB93f7bE27eD05e7e[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  3) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x59561Bc89ff2C7296Cee8E5567F9210363371436[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Liquidity_v8[0m[31m (239ms)[0m
+  [31m  4) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xCF7495BCE503d3b950cC806BB93f7bE27eD05e7e[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x59561Bc89ff2C7296Cee8E5567F9210363371436[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for Liquidity_v8[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xCF7495BCE503d3b950cC806BB93f7bE27eD05e7e[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for Liquidity_v8[0m[31m (180ms)[0m
+  [32m  ✓[0m[90m test for Liquidity_v8[0m[31m (218ms)[0m
+  [32m  ✓[0m[90m test for Liquidity_v8[0m[31m (184ms)[0m
+  [31m  7) test for Liquidity_v8[0m
+    > No events were emitted
+
+
+[92m [0m[32m 5 passing[0m[90m (4s)[0m
+[31m  7 failing[0m
+
+[0m  1) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:17:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:49:58)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:63:39)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert No stakes found for user[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:97:66)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert No stakes found for user[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:113:67)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert No stakes found for user[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:128:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: Liquidity_v8
+       test for Liquidity_v8:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-Liquidity_v8.js:182:53)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------|----------|----------|----------|----------|----------------|
+File               |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------|----------|----------|----------|----------|----------------|
+ contracts/        |    27.56 |    17.19 |    54.55 |    27.27 |                |
+  Liquidity_v8.sol |    27.56 |    17.19 |    54.55 |    27.27 |... 514,525,526 |
+-------------------|----------|----------|----------|----------|----------------|
+All files          |    27.56 |    17.19 |    54.55 |    27.27 |                |
+-------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 7 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

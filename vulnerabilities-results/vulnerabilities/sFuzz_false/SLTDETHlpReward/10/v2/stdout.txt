@@ -1,0 +1,219 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> SLTDETHlpReward.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/SLTDETHlpReward.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: SLTDETHlpReward[0m
+  [31m  1) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x3aeaE0207c14307a0F0500C6CC50F45b4C21086E[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (981ms)[0m
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (195ms)[0m
+  [31m  2) test for SLTDETHlpReward[0m
+    > No events were emitted
+  [31m  3) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x014100203a457eef93fd6F3e03ce5F9580eF01d0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (213ms)[0m
+  [31m  4) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x1C729aC9c1Ca098383f677AD440E21CdB88cD2bc[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (155ms)[0m
+  [31m  5) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x014100203a457eef93fd6F3e03ce5F9580eF01d0[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  6) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x1C729aC9c1Ca098383f677AD440E21CdB88cD2bc[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  7) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x1C729aC9c1Ca098383f677AD440E21CdB88cD2bc[39m (type: address)
+    )
+
+
+    ---------------------------
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (124ms)[0m
+  [32m  ✓[0m[90m test for SLTDETHlpReward[0m[31m (127ms)[0m
+  [31m  8) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0xbFD10Ab40aC5ED74847861D06604d61247D3a00A[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for SLTDETHlpReward[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x1C729aC9c1Ca098383f677AD440E21CdB88cD2bc[39m (type: address)
+    )
+
+
+    ---------------------------
+
+
+[92m [0m[32m 6 passing[0m[90m (4s)[0m
+[31m  9 failing[0m
+
+[0m  1) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  2) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:46:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:64:62)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     AssertionError: expected '0x1C729aC9c1Ca098383f677AD440E21CdB88cD2bc' to equal 1.2230259737668257e+48[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:91:10)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:111:71)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  7) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:136:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}[0m[90m
+  
+[0m
+[0m  9) Contract: SLTDETHlpReward
+       test for SLTDETHlpReward:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-SLTDETHlpReward.js:184:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------------|----------|----------|----------|----------|----------------|
+File                  |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------|----------|----------|----------|----------|----------------|
+ contracts/           |    57.14 |    43.75 |    70.21 |    59.09 |                |
+  SLTDETHlpReward.sol |    57.14 |    43.75 |    70.21 |    59.09 |... 375,379,380 |
+----------------------|----------|----------|----------|----------|----------------|
+All files             |    57.14 |    43.75 |    70.21 |    59.09 |                |
+----------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

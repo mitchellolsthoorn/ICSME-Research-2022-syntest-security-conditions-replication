@@ -1,0 +1,98 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> BAE_utils.sol
+> BAE.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/BAE.sol
+> Compiling ./.coverage_contracts/BAE_utils.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/BAE_utils.sol:1595:1: Warning: Return value of low-level calls not used.
+treasurer.call.value(msg.value)("");
+^---------------------------------^
+,project:/.coverage_contracts/BAE.sol:128:1: Warning: Return value of low-level calls not used.
+auctionList[_index].lastBidder.call.value(auctionList[_index].bid)("");
+^--------------------------------------------------------------------^
+,project:/.coverage_contracts/BAE.sol:172:1: Warning: Return value of low-level calls not used.
+treasurer.call.value(fee)("");
+^---------------------------^
+,project:/.coverage_contracts/BAE.sol:175:1: Warning: Return value of low-level calls not used.
+auctionList[_index].owner.call.value(auctionList[_index].bid.sub(fee))("");
+^------------------------------------------------------------------------^
+,project:/.coverage_contracts/BAE.sol:245:1: Warning: Return value of low-level calls not used.
+treasurer.call.value(fee)("");
+^---------------------------^
+,project:/.coverage_contracts/BAE.sol:248:1: Warning: Return value of low-level calls not used.
+auctionList[_index].owner.call.value(auctionList[_index].bid.sub(fee))("");
+^------------------------------------------------------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: BAE[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (2100ms)[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (1222ms)[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (324ms)[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (277ms)[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (253ms)[0m
+  [32m  ✓[0m[90m test for BAE[0m[31m (266ms)[0m
+  [31m  1) test for BAE[0m
+    > No events were emitted
+
+
+[92m [0m[32m 6 passing[0m[90m (6s)[0m
+[31m  1 failing[0m
+
+[0m  1) Contract: BAE
+       test for BAE:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-BAE.js:111:34)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+----------------|----------|----------|----------|----------|----------------|
+File            |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------|----------|----------|----------|----------|----------------|
+ contracts/     |     8.05 |     8.93 |    16.13 |     7.92 |                |
+  BAE.sol       |       18 |       20 |     62.5 |    17.65 |... 113,115,116 |
+  BAE_utils.sol |     5.38 |     2.78 |     9.26 |     5.29 |... 2,1153,1154 |
+----------------|----------|----------|----------|----------|----------------|
+All files       |     8.05 |     8.93 |    16.13 |     7.92 |                |
+----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 1 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

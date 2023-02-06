@@ -1,0 +1,82 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> QuickToken.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/QuickToken.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/QuickToken.sol:6:1: Warning: Experimental features are turned on. Do not use experimental features on live deployments.
+pragma experimental ABIEncoderV2;
+^-------------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: QuickToken[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (1179ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (381ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (223ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (193ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (524ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (193ms)[0m
+  [31m  1) test for QuickToken[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (480ms)[0m
+  [32m  ✓[0m[90m test for QuickToken[0m[31m (395ms)[0m
+
+
+[92m [0m[32m 8 passing[0m[90m (4s)[0m
+[31m  1 failing[0m
+
+[0m  1) Contract: QuickToken
+       test for QuickToken:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-QuickToken.js:152:48)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |    69.74 |    42.86 |    69.57 |    69.74 |                |
+  QuickToken.sol |    69.74 |    42.86 |    69.57 |    69.74 |... 350,364,365 |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |    69.74 |    42.86 |    69.57 |    69.74 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 1 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

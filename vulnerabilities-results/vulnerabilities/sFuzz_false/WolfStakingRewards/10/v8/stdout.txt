@@ -1,0 +1,407 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> WolfStakingRewards.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/WolfStakingRewards.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: WolfStakingRewards[0m
+  [31m  1) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  2) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (682ms)[0m
+  [31m  3) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (211ms)[0m
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (169ms)[0m
+  [31m  4) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  5) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  6) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (263ms)[0m
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (184ms)[0m
+  [31m  7) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (168ms)[0m
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (204ms)[0m
+  [31m  8) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  9) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  10) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  11) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  12) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  13) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  14) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  15) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (229ms)[0m
+  [31m  16) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  17) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  18) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  19) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  20) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  21) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  22) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  23) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  24) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  25) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  26) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  27) test for WolfStakingRewards[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for WolfStakingRewards[0m[31m (185ms)[0m
+  [31m  28) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  29) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  30) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  31) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  32) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  33) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  34) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  35) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  36) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  37) test for WolfStakingRewards[0m
+    > No events were emitted
+  [31m  38) test for WolfStakingRewards[0m
+    > No events were emitted
+
+
+[92m [0m[32m 9 passing[0m[90m (4s)[0m
+[31m  38 failing[0m
+
+[0m  1) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:20:51)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="DVEtaLXaQBPn5zlTerN731P4frp4kk3KIK4E", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="DVEtaLXaQBPn5zlTerN731P4frp4kk3KIK4E", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:27:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="cQ6sywkIynMutfRRHABswtYRbGtp63pVT6Jhuy7K", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="cQ6sywkIynMutfRRHABswtYRbGtp63pVT6Jhuy7K", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:63:65)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:115:47)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="7ncwsLsf3q4LFcqZNEOOXoLYWeCxDRWqFo6oaqkMtE9a9lYhAeCa7aGEbfVTrC68StntfzZyIPebwsVl", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="7ncwsLsf3q4LFcqZNEOOXoLYWeCxDRWqFo6oaqkMtE9a9lYhAeCa7aGEbfVTrC68StntfzZyIPebwsVl", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:122:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="AcDHagx8nGiD8gRXfPmdHPgLDfCQY7ZdCpg5Ee4fsieUf8pBFyBHl8gTTWiHjMePg", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="AcDHagx8nGiD8gRXfPmdHPgLDfCQY7ZdCpg5Ee4fsieUf8pBFyBHl8gTTWiHjMePg", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:137:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="SQuClDXkMfT9oX8a9YFLQAkA0duDHZvlQzDcN9Vgq", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="SQuClDXkMfT9oX8a9YFLQAkA0duDHZvlQzDcN9Vgq", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:196:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="sHtOJ3P6W8sO", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="sHtOJ3P6W8sO", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:259:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="c0mzP12btKt288QFWN9w8yLIQseb7v", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="c0mzP12btKt288QFWN9w8yLIQseb7v", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:277:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="etqmgNYgkgkPDUKApLRaWB13wpyaMfko7JTyTEu7ztaX0BpWVOFRzSBgj3Ths46uAtNo1oMT9mzDWEK3dtHDIllj", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="etqmgNYgkgkPDUKApLRaWB13wpyaMfko7JTyTEu7ztaX0BpWVOFRzSBgj3Ths46uAtNo1oMT9mzDWEK3dtHDIllj", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:288:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="qg2v7W9DoStPuC6zVvEBln9pxRy2v6seAd0wuPelU9aHoVKekXJkfST8cpOmQVVSH3CCnVponRbk0", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="qg2v7W9DoStPuC6zVvEBln9pxRy2v6seAd0wuPelU9aHoVKekXJkfST8cpOmQVVSH3CCnVponRbk0", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:298:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="vgLKkK9JRfZnyrJbKTjOQKaTLNJD22YsgW4pIdb5G7LLWHrwi5WuvaRijdr", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="vgLKkK9JRfZnyrJbKTjOQKaTLNJD22YsgW4pIdb5G7LLWHrwi5WuvaRijdr", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:313:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="ccbRbwAO6yHD8Q6g3j2MA3f1D8ydaSeVvfIdK7VxiNZjPc9TmZe272fpEwRGeyqLHZOZiqGVc3X", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="ccbRbwAO6yHD8Q6g3j2MA3f1D8ydaSeVvfIdK7VxiNZjPc9TmZe272fpEwRGeyqLHZOZiqGVc3X", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:332:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="fO9KFBkaIGDuXJiGRE2czl8ZVaEtWEEmzHIKqv1wpPYRbjIO2jUSNJBEouOABfUKkRJpu3eygX6kd", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="fO9KFBkaIGDuXJiGRE2czl8ZVaEtWEEmzHIKqv1wpPYRbjIO2jUSNJBEouOABfUKkRJpu3eygX6kd", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:350:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="xFMRcbz8Md2gVnfKwVfaDNCERqOrHqGUHuftRGrsp0a0v0APfUJexKOaQck6Yq2uNemsJOdG4cIbeZw4C", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="xFMRcbz8Md2gVnfKwVfaDNCERqOrHqGUHuftRGrsp0a0v0APfUJexKOaQck6Yq2uNemsJOdG4cIbeZw4C", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:369:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="GzwHnhyaY3ShTkX7eue7384BC4YxaNx2XAUX4T9Bw3M9yAME7UOhzWkdnk22Cc9qxylYns8", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="GzwHnhyaY3ShTkX7eue7384BC4YxaNx2XAUX4T9Bw3M9yAME7UOhzWkdnk22Cc9qxylYns8", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:399:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="tF3A2KCUAPvSBhbVC1PmRIiPmw56Ny1jasTCz6kjR4b3kG3M3J2eFWHANEeRMCer2kPeD5jsI", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="tF3A2KCUAPvSBhbVC1PmRIiPmw56Ny1jasTCz6kjR4b3kG3M3J2eFWHANEeRMCer2kPeD5jsI", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:410:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  18) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="2vWXdFiO4qoXgeTMisMN1XFuS9eYk57GxNykiwb37uL", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="2vWXdFiO4qoXgeTMisMN1XFuS9eYk57GxNykiwb37uL", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:428:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  19) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="wW5", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="wW5", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:443:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  20) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="i1SKuKjR5o7mm1Rvs8sEhhRWvrrueFhK1kmKUrAdMfE", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="i1SKuKjR5o7mm1Rvs8sEhhRWvrrueFhK1kmKUrAdMfE", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:454:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  21) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="XoZpkwhWFOzJfRxG3yVnskQUFhlFwROexxzQU", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="XoZpkwhWFOzJfRxG3yVnskQUFhlFwROexxzQU", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:464:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  22) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="C3pfXO1XOwDzazt8sTuQuKEj04JKTLWoUbGE4sn9VLL6QUpEkcdGvCG4RC0XNRIRUo6QK67s", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="C3pfXO1XOwDzazt8sTuQuKEj04JKTLWoUbGE4sn9VLL6QUpEkcdGvCG4RC0XNRIRUo6QK67s", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:475:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  23) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="WlMG1YxxIqMm7yeBu52a0PSEH0sW4mpfovZwX6Ts5bTjXP4YJV3K7Df82zoDnCOyXGQphUpnxzBV", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="WlMG1YxxIqMm7yeBu52a0PSEH0sW4mpfovZwX6Ts5bTjXP4YJV3K7Df82zoDnCOyXGQphUpnxzBV", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:492:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  24) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="HFqcUKyGqUV2rQQj5UrDBe27hAXkpsmwH5fK6FfngL8v7MzMWWDKEbnkuHCDHNAouX32pc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="HFqcUKyGqUV2rQQj5UrDBe27hAXkpsmwH5fK6FfngL8v7MzMWWDKEbnkuHCDHNAouX32pc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:503:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  25) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: Returned error: sender account not recognized[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:521:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  26) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="9D5cW139uhCZEF2RWTX", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="9D5cW139uhCZEF2RWTX", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:536:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  27) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="L8P3tRyXPwTFrHieyLYbCyTzuAris2PDpwO3UT3RVeGFdfEIP9ITphDEaZ", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="L8P3tRyXPwTFrHieyLYbCyTzuAris2PDpwO3UT3RVeGFdfEIP9ITphDEaZ", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:554:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  28) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="Sq33G6ZTPYKKo0X3PC0Jid1D7CkmmxCN75Jx", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="Sq33G6ZTPYKKo0X3PC0Jid1D7CkmmxCN75Jx", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:583:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  29) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="w5q1GwAt7DXDkUpHzU2KMSETno8TWJAKk5rgzBIRuc4eLlB", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="w5q1GwAt7DXDkUpHzU2KMSETno8TWJAKk5rgzBIRuc4eLlB", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:601:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  30) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="9qL1WEftRPEqH89OrsrF7d7imYEWpoSqxoBT8SVnWqgno93AtMIkoNju8WvtDScbwCLCaNXIM2vnfC9dqRSadEabN31tw5fnff", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="9qL1WEftRPEqH89OrsrF7d7imYEWpoSqxoBT8SVnWqgno93AtMIkoNju8WvtDScbwCLCaNXIM2vnfC9dqRSadEabN31tw5fnff", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:618:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  31) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="lNDVbeEdeku6fcIjLFbkKp9hL36JF4wgpW1Np", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="lNDVbeEdeku6fcIjLFbkKp9hL36JF4wgpW1Np", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:633:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  32) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="Batorr74K7R16p2PpU5LRCmUcgL5WSAF9VYnNgALHVWdbh83nMo1XyS3G7hA", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="Batorr74K7R16p2PpU5LRCmUcgL5WSAF9VYnNgALHVWdbh83nMo1XyS3G7hA", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:646:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  33) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="rqvLm5X7H3UTHg", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="rqvLm5X7H3UTHg", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:662:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  34) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="zKkIywMzOnbCKaMnYMRjC8DSHdSY", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="zKkIywMzOnbCKaMnYMRjC8DSHdSY", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:678:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  35) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="wIcV2wn662CeL55DE62kc9tdSN0VaxAKRis4c8LTgt8F26VtohYxCJMwB2PXk4pJtQfhrxPVKCONJ70YntvMb2iSXsLWJycp", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="wIcV2wn662CeL55DE62kc9tdSN0VaxAKRis4c8LTgt8F26VtohYxCJMwB2PXk4pJtQfhrxPVKCONJ70YntvMb2iSXsLWJycp", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:690:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  36) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="791vhGqYJCwTJfQuAXlJ8xZ22fAWvKwhCxMR1Fc1eXcpuHtlJdmfvHCe8F3z242zeabLGIOh7TZ3Pl5JNM5gJxBc46NeoJCc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="791vhGqYJCwTJfQuAXlJ8xZ22fAWvKwhCxMR1Fc1eXcpuHtlJdmfvHCe8F3z242zeabLGIOh7TZ3Pl5JNM5gJxBc46NeoJCc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:707:64)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  37) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="CyT6HmXNbSj4iUHC3zdoOODJdf", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="CyT6HmXNbSj4iUHC3zdoOODJdf", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:722:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  38) Contract: WolfStakingRewards
+       test for WolfStakingRewards:
+[0m[31m     Error: invalid address (argument="address", value="B9fGcrguiJReUNSzgr8sDcEM6mPF", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_rewardsDistribution", value="B9fGcrguiJReUNSzgr8sDcEM6mPF", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-WolfStakingRewards.js:738:65)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------|----------|----------|----------|----------|----------------|
+File                     |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------|----------|----------|----------|----------|----------------|
+ contracts/              |    47.96 |    32.69 |    63.16 |    49.51 |                |
+  WolfStakingRewards.sol |    47.96 |    32.69 |    63.16 |    49.51 |... 587,588,594 |
+-------------------------|----------|----------|----------|----------|----------------|
+All files                |    47.96 |    32.69 |    63.16 |    49.51 |                |
+-------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 38 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

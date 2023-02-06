@@ -1,0 +1,272 @@
+
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> NasiLiquidityPoolFactory.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/NasiLiquidityPoolFactory.sol
+> Compilation warnings encountered:
+
+    project:/.coverage_contracts/NasiLiquidityPoolFactory.sol:234:40: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+ ... function sub(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) { ...
+                                        ^------------------------^
+
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: NasiLiquidityPoolFactory[0m
+  [31m  1) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  2) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  3) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x287c864F8EeFC7CE7f1aC0257c6b88Ab261f1320[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  4) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9f57c018F4d956351CAd57C20042D9032A3Ed98f[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  5) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  6) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x799fd176483Fc15dA9869BDE106047688DA1EBDE[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  7) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  8) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9f57c018F4d956351CAd57C20042D9032A3Ed98f[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  9) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  10) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  11) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x4788A2DC211de20B85cc33948153Ba42089bd9cB[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  12) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  13) test for NasiLiquidityPoolFactory[0m
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> [33m0x0000000000000000000000000000000000000000[39m (type: address),
+      newOwner: <indexed> [33m0x9f57c018F4d956351CAd57C20042D9032A3Ed98f[39m (type: address)
+    )
+
+
+    ---------------------------
+  [31m  14) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  15) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [32m  ✓[0m[90m test for NasiLiquidityPoolFactory[0m[31m (188ms)[0m
+  [31m  16) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+  [31m  17) test for NasiLiquidityPoolFactory[0m
+    > No events were emitted
+
+
+[92m [0m[32m 1 passing[0m[90m (4s)[0m
+[31m  17 failing[0m
+
+[0m  1) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="mbUXUQalsC2FVPs6RWkO26yhBkBoxgWfXGeV0msEr61Gm9g8lzKggKXo7gbHfHjRHGvHrsnlc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="mbUXUQalsC2FVPs6RWkO26yhBkBoxgWfXGeV0msEr61Gm9g8lzKggKXo7gbHfHjRHGvHrsnlc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:11:77)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  2) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="x5iJ65uEvpOHwcXN9phFzzXbK4DLj1VkpUupBfEJlVKT6wcQjRx8PQVc7YDF4FJXvIrHWaTgJgF", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="x5iJ65uEvpOHwcXN9phFzzXbK4DLj1VkpUupBfEJlVKT6wcQjRx8PQVc7YDF4FJXvIrHWaTgJgF", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:33:77)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  3) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:60:70)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  4) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:74:76)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  5) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="uBFr3IlaJ6vhWe5HHcOOh3H8aY4uHntc", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="uBFr3IlaJ6vhWe5HHcOOh3H8aY4uHntc", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:84:76)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  6) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert Ownable: caller is not the owner[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:111:59)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  7) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="CFPIduIrqXXOPQBgfHV7pI6UUBvryFENUXm7Ncx", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="CFPIduIrqXXOPQBgfHV7pI6UUBvryFENUXm7Ncx", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:120:77)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  8) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:153:75)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  9) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="1IigvsWN5ir4Bsul7ePFQbhk6DaM1xgdWWsTBhoSv9Nx", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="1IigvsWN5ir4Bsul7ePFQbhk6DaM1xgdWWsTBhoSv9Nx", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:167:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  10) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="HAK3IIaIBQil3WLxMVRaUAkENrYUn8QjZDxFATj3", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="HAK3IIaIBQil3WLxMVRaUAkENrYUn8QjZDxFATj3", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:183:76)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  11) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     TypeError: Cannot read property 'call' of undefined[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:207:79)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  12) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="scUdroX4TI4ynjJQRwpPrbBUmb7wPjoxiWkjARrjRgW4lTknvJDOEPG2lO4oVMuSNtHVMUQCYNlku", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="scUdroX4TI4ynjJQRwpPrbBUmb7wPjoxiWkjARrjRgW4lTknvJDOEPG2lO4oVMuSNtHVMUQCYNlku", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:214:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  13) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: Returned error: VM Exception while processing transaction: revert[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:239:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  14) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="Juc75jzcoZsUaL9UbMHAk1UpMEYvoTHdiFrakufSKtTBk", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="Juc75jzcoZsUaL9UbMHAk1UpMEYvoTHdiFrakufSKtTBk", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:247:76)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  15) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="g9t34FqsWJsyCdX", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="g9t34FqsWJsyCdX", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:262:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  16) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:287:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+[0m  17) Contract: NasiLiquidityPoolFactory
+       test for NasiLiquidityPoolFactory:
+[0m[31m     Error: invalid address (argument="address", value="NEjBZy4kd48h6eTU1YntOCMjltY57APYDsNWRrwhhcGNX6kTxZElsmUshjAHNsJJuMrMvztZI2DNW6LOaG0", code=INVALID_ARGUMENT, version=address/5.0.5) (argument="_nasiAddress", value="NEjBZy4kd48h6eTU1YntOCMjltY57APYDsNWRrwhhcGNX6kTxZElsmUshjAHNsJJuMrMvztZI2DNW6LOaG0", code=INVALID_ARGUMENT, version=abi/5.0.7)[0m[90m
+      at Context.<anonymous> (tests/test-NasiLiquidityPoolFactory.js:302:77)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[0m
+
+
+-------------------------------|----------|----------|----------|----------|----------------|
+File                           |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-------------------------------|----------|----------|----------|----------|----------------|
+ contracts/                    |    11.29 |     3.03 |    11.32 |    11.01 |                |
+  NasiLiquidityPoolFactory.sol |    11.29 |     3.03 |    11.32 |    11.01 |... 8,1664,1665 |
+-------------------------------|----------|----------|----------|----------|----------------|
+All files                      |    11.29 |     3.03 |    11.32 |    11.01 |                |
+-------------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 17 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

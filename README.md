@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ICSME-2022-syntest-security-conditions
-=======
 # General Info
 This is the replication package for the following paper:
 
@@ -23,4 +20,3 @@ To ease the analysis of the results for RQ1, we provide the csv files (`rq1-stat
 
 # Code
 The experiment was performed using SynTest-Solidity (https://github.com/syntest-framework/syntest-solidity).
->>>>>>> 03c2d625 (Add replication information)
